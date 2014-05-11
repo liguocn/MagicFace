@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
+		F891E145191E703800FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E143191E703800FE7290 /* InfoPlist.strings */; };
+		F891E147191E703800FE7290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E146191E703800FE7290 /* main.m */; };
+		F891E14B191E703800FE7290 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F891E149191E703800FE7290 /* Credits.rtf */; };
+		F891E14E191E703800FE7290 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E14D191E703800FE7290 /* AppDelegate.m */; };
+		F891E151191E703800FE7290 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F891E14F191E703800FE7290 /* MainMenu.xib */; };
+		F891E153191E703800FE7290 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F891E152191E703800FE7290 /* Images.xcassets */; };
+		F891E15A191E703900FE7290 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E159191E703900FE7290 /* XCTest.framework */; };
+		F891E15B191E703900FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
+		F891E163191E703900FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E161191E703900FE7290 /* InfoPlist.strings */; };
+		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F891E15C191E703900FE7290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F891E12F191E703800FE7290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F891E136191E703800FE7290;
+			remoteInfo = MagicFace;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F891E137191E703800FE7290 /* MagicFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F891E13A191E703800FE7290 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F891E13D191E703800FE7290 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F891E13E191E703800FE7290 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F891E13F191E703800FE7290 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F891E142191E703800FE7290 /* MagicFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicFace-Info.plist"; sourceTree = "<group>"; };
+		F891E144191E703800FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F891E146191E703800FE7290 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F891E148191E703800FE7290 /* MagicFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicFace-Prefix.pch"; sourceTree = "<group>"; };
+		F891E14A191E703800FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F891E14C191E703800FE7290 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F891E14D191E703800FE7290 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F891E150191E703800FE7290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F891E152191E703800FE7290 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F891E158191E703900FE7290 /* MagicFaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicFaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F891E159191E703900FE7290 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F891E160191E703900FE7290 /* MagicFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicFaceTests-Info.plist"; sourceTree = "<group>"; };
+		F891E162191E703900FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F891E164191E703900FE7290 /* MagicFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFaceTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F891E134191E703800FE7290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F891E155191E703900FE7290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E15B191E703900FE7290 /* Cocoa.framework in Frameworks */,
+				F891E15A191E703900FE7290 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F891E12E191E703800FE7290 = {
+			isa = PBXGroup;
+			children = (
+				F891E140191E703800FE7290 /* MagicFace */,
+				F891E15E191E703900FE7290 /* MagicFaceTests */,
+				F891E139191E703800FE7290 /* Frameworks */,
+				F891E138191E703800FE7290 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F891E138191E703800FE7290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F891E137191E703800FE7290 /* MagicFace.app */,
+				F891E158191E703900FE7290 /* MagicFaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F891E139191E703800FE7290 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F891E13A191E703800FE7290 /* Cocoa.framework */,
+				F891E159191E703900FE7290 /* XCTest.framework */,
+				F891E13C191E703800FE7290 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F891E13C191E703800FE7290 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F891E13D191E703800FE7290 /* AppKit.framework */,
+				F891E13E191E703800FE7290 /* CoreData.framework */,
+				F891E13F191E703800FE7290 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F891E140191E703800FE7290 /* MagicFace */ = {
+			isa = PBXGroup;
+			children = (
+				F891E14C191E703800FE7290 /* AppDelegate.h */,
+				F891E14D191E703800FE7290 /* AppDelegate.m */,
+				F891E14F191E703800FE7290 /* MainMenu.xib */,
+				F891E152191E703800FE7290 /* Images.xcassets */,
+				F891E141191E703800FE7290 /* Supporting Files */,
+			);
+			path = MagicFace;
+			sourceTree = "<group>";
+		};
+		F891E141191E703800FE7290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F891E142191E703800FE7290 /* MagicFace-Info.plist */,
+				F891E143191E703800FE7290 /* InfoPlist.strings */,
+				F891E146191E703800FE7290 /* main.m */,
+				F891E148191E703800FE7290 /* MagicFace-Prefix.pch */,
+				F891E149191E703800FE7290 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F891E15E191E703900FE7290 /* MagicFaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				F891E164191E703900FE7290 /* MagicFaceTests.m */,
+				F891E15F191E703900FE7290 /* Supporting Files */,
+			);
+			path = MagicFaceTests;
+			sourceTree = "<group>";
+		};
+		F891E15F191E703900FE7290 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F891E160191E703900FE7290 /* MagicFaceTests-Info.plist */,
+				F891E161191E703900FE7290 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F891E136191E703800FE7290 /* MagicFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F891E168191E703900FE7290 /* Build configuration list for PBXNativeTarget "MagicFace" */;
+			buildPhases = (
+				F891E133191E703800FE7290 /* Sources */,
+				F891E134191E703800FE7290 /* Frameworks */,
+				F891E135191E703800FE7290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicFace;
+			productName = MagicFace;
+			productReference = F891E137191E703800FE7290 /* MagicFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F891E157191E703900FE7290 /* MagicFaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F891E16B191E703900FE7290 /* Build configuration list for PBXNativeTarget "MagicFaceTests" */;
+			buildPhases = (
+				F891E154191E703900FE7290 /* Sources */,
+				F891E155191E703900FE7290 /* Frameworks */,
+				F891E156191E703900FE7290 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F891E15D191E703900FE7290 /* PBXTargetDependency */,
+			);
+			name = MagicFaceTests;
+			productName = MagicFaceTests;
+			productReference = F891E158191E703900FE7290 /* MagicFaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F891E12F191E703800FE7290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Magic3D;
+				TargetAttributes = {
+					F891E157191E703900FE7290 = {
+						TestTargetID = F891E136191E703800FE7290;
+					};
+				};
+			};
+			buildConfigurationList = F891E132191E703800FE7290 /* Build configuration list for PBXProject "MagicFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F891E12E191E703800FE7290;
+			productRefGroup = F891E138191E703800FE7290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F891E136191E703800FE7290 /* MagicFace */,
+				F891E157191E703900FE7290 /* MagicFaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F891E135191E703800FE7290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E145191E703800FE7290 /* InfoPlist.strings in Resources */,
+				F891E153191E703800FE7290 /* Images.xcassets in Resources */,
+				F891E14B191E703800FE7290 /* Credits.rtf in Resources */,
+				F891E151191E703800FE7290 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F891E156191E703900FE7290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E163191E703900FE7290 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F891E133191E703800FE7290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
+				F891E147191E703800FE7290 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F891E154191E703900FE7290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F891E15D191E703900FE7290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F891E136191E703800FE7290 /* MagicFace */;
+			targetProxy = F891E15C191E703900FE7290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F891E143191E703800FE7290 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F891E144191E703800FE7290 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F891E149191E703800FE7290 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F891E14A191E703800FE7290 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F891E14F191E703800FE7290 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F891E150191E703800FE7290 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F891E161191E703900FE7290 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F891E162191E703900FE7290 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F891E166191E703900FE7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F891E167191E703900FE7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F891E169191E703900FE7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F891E16A191E703900FE7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F891E16C191E703900FE7290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicFace.app/Contents/MacOS/MagicFace";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MagicFaceTests/MagicFaceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F891E16D191E703900FE7290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MagicFace.app/Contents/MacOS/MagicFace";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				INFOPLIST_FILE = "MagicFaceTests/MagicFaceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F891E132191E703800FE7290 /* Build configuration list for PBXProject "MagicFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F891E166191E703900FE7290 /* Debug */,
+				F891E167191E703900FE7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F891E168191E703900FE7290 /* Build configuration list for PBXNativeTarget "MagicFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F891E169191E703900FE7290 /* Debug */,
+				F891E16A191E703900FE7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F891E16B191E703900FE7290 /* Build configuration list for PBXNativeTarget "MagicFaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F891E16C191E703900FE7290 /* Debug */,
+				F891E16D191E703900FE7290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F891E12F191E703800FE7290 /* Project object */;
+}
