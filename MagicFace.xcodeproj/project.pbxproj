@@ -13,6 +13,26 @@
 		F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = F8429F41191F0BEC0079D2B3 /* instances.inc */; };
 		F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F42191F0BEC0079D2B3 /* maxflow.cpp */; };
 		F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F43191F0BEC0079D2B3 /* README.TXT */; };
+		F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541D191F49FF00784E1D /* flann_cpp.cpp */; };
+		F8475422191F49FF00784E1D /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541E191F49FF00784E1D /* flann.cpp */; };
+		F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */; };
+		F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */; };
+		F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA9191F678100FE9A15 /* HomoVector4.cpp */; };
+		F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CAB191F678100FE9A15 /* Vector2.cpp */; };
+		F8805CB3191F678100FE9A15 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CAD191F678100FE9A15 /* Vector3.cpp */; };
+		F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB4191F680B00FE9A15 /* Clustering.cpp */; };
+		F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */; };
+		F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */; };
+		F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CBD191F684E00FE9A15 /* Deformation.cpp */; };
+		F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CBF191F684E00FE9A15 /* Retargetting.cpp */; };
+		F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CC1191F684E00FE9A15 /* Saliency.cpp */; };
+		F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CC3191F684E00FE9A15 /* Segmentation.cpp */; };
+		F8805CCF191F68A300FE9A15 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */; };
+		F8805CD0191F68A300FE9A15 /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */; };
+		F8805CD1191F68A300FE9A15 /* libopencv_flann.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */; };
+		F8805CD2191F68A300FE9A15 /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */; };
+		F8805CD3191F68A300FE9A15 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */; };
+		F8805CD4191F68A300FE9A15 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */; };
 		F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E145191E703800FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E143191E703800FE7290 /* InfoPlist.strings */; };
 		F891E147191E703800FE7290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E146191E703800FE7290 /* main.m */; };
@@ -46,6 +66,46 @@
 		F8429F41191F0BEC0079D2B3 /* instances.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = instances.inc; path = Src/Dependence/GraphCut/instances.inc; sourceTree = "<group>"; };
 		F8429F42191F0BEC0079D2B3 /* maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maxflow.cpp; path = Src/Dependence/GraphCut/maxflow.cpp; sourceTree = "<group>"; };
 		F8429F43191F0BEC0079D2B3 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.TXT; path = Src/Dependence/GraphCut/README.TXT; sourceTree = "<group>"; };
+		F847541D191F49FF00784E1D /* flann_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann_cpp.cpp; path = Src/Dependence/Flann1.8.4/flann/flann_cpp.cpp; sourceTree = "<group>"; };
+		F847541E191F49FF00784E1D /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann.cpp; path = Src/Dependence/Flann1.8.4/flann/flann.cpp; sourceTree = "<group>"; };
+		F847541F191F49FF00784E1D /* flann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flann.h; path = Src/Dependence/Flann1.8.4/flann/flann.h; sourceTree = "<group>"; };
+		F8475420191F49FF00784E1D /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = Src/Dependence/Flann1.8.4/flann/flann.hpp; sourceTree = "<group>"; };
+		F8475423191F4FF600784E1D /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_calib3d.dylib; sourceTree = "<group>"; };
+		F8475424191F4FF600784E1D /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_core.dylib; sourceTree = "<group>"; };
+		F8475425191F4FF600784E1D /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_flann.dylib; sourceTree = "<group>"; };
+		F8475426191F4FF600784E1D /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_highgui.dylib; sourceTree = "<group>"; };
+		F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		F8475428191F4FF600784E1D /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_video.dylib; sourceTree = "<group>"; };
+		F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix3.cpp; path = Src/Math/HomoMatrix3.cpp; sourceTree = "<group>"; };
+		F8805CA6191F678100FE9A15 /* HomoMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix3.h; path = Src/Math/HomoMatrix3.h; sourceTree = "<group>"; };
+		F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix4.cpp; path = Src/Math/HomoMatrix4.cpp; sourceTree = "<group>"; };
+		F8805CA8191F678100FE9A15 /* HomoMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix4.h; path = Src/Math/HomoMatrix4.h; sourceTree = "<group>"; };
+		F8805CA9191F678100FE9A15 /* HomoVector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoVector4.cpp; path = Src/Math/HomoVector4.cpp; sourceTree = "<group>"; };
+		F8805CAA191F678100FE9A15 /* HomoVector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoVector4.h; path = Src/Math/HomoVector4.h; sourceTree = "<group>"; };
+		F8805CAB191F678100FE9A15 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = Src/Math/Vector2.cpp; sourceTree = "<group>"; };
+		F8805CAC191F678100FE9A15 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = Src/Math/Vector2.h; sourceTree = "<group>"; };
+		F8805CAD191F678100FE9A15 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = Src/Math/Vector3.cpp; sourceTree = "<group>"; };
+		F8805CAE191F678100FE9A15 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = Src/Math/Vector3.h; sourceTree = "<group>"; };
+		F8805CB4191F680B00FE9A15 /* Clustering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Clustering.cpp; path = Src/MachineLearning/Clustering.cpp; sourceTree = "<group>"; };
+		F8805CB5191F680B00FE9A15 /* Clustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clustering.h; path = Src/MachineLearning/Clustering.h; sourceTree = "<group>"; };
+		F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaussianMixtureModel.cpp; path = Src/MachineLearning/GaussianMixtureModel.cpp; sourceTree = "<group>"; };
+		F8805CB7191F680B00FE9A15 /* GaussianMixtureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaussianMixtureModel.h; path = Src/MachineLearning/GaussianMixtureModel.h; sourceTree = "<group>"; };
+		F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrincipalComponentAnalysis.cpp; path = Src/MachineLearning/PrincipalComponentAnalysis.cpp; sourceTree = "<group>"; };
+		F8805CB9191F680B00FE9A15 /* PrincipalComponentAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrincipalComponentAnalysis.h; path = Src/MachineLearning/PrincipalComponentAnalysis.h; sourceTree = "<group>"; };
+		F8805CBD191F684E00FE9A15 /* Deformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Deformation.cpp; path = Src/DIP/Deformation.cpp; sourceTree = "<group>"; };
+		F8805CBE191F684E00FE9A15 /* Deformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deformation.h; path = Src/DIP/Deformation.h; sourceTree = "<group>"; };
+		F8805CBF191F684E00FE9A15 /* Retargetting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Retargetting.cpp; path = Src/DIP/Retargetting.cpp; sourceTree = "<group>"; };
+		F8805CC0191F684E00FE9A15 /* Retargetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Retargetting.h; path = Src/DIP/Retargetting.h; sourceTree = "<group>"; };
+		F8805CC1191F684E00FE9A15 /* Saliency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Saliency.cpp; path = Src/DIP/Saliency.cpp; sourceTree = "<group>"; };
+		F8805CC2191F684E00FE9A15 /* Saliency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Saliency.h; path = Src/DIP/Saliency.h; sourceTree = "<group>"; };
+		F8805CC3191F684E00FE9A15 /* Segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Segmentation.cpp; path = Src/DIP/Segmentation.cpp; sourceTree = "<group>"; };
+		F8805CC4191F684E00FE9A15 /* Segmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Segmentation.h; path = Src/DIP/Segmentation.h; sourceTree = "<group>"; };
+		F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_calib3d.dylib; sourceTree = "<group>"; };
+		F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_core.dylib; sourceTree = "<group>"; };
+		F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_flann.dylib; sourceTree = "<group>"; };
+		F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_highgui.dylib; sourceTree = "<group>"; };
+		F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_video.dylib; sourceTree = "<group>"; };
 		F891E137191E703800FE7290 /* MagicFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F891E13A191E703800FE7290 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F891E13D191E703800FE7290 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -72,6 +132,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8805CCF191F68A300FE9A15 /* libopencv_calib3d.dylib in Frameworks */,
+				F8805CD0191F68A300FE9A15 /* libopencv_core.dylib in Frameworks */,
+				F8805CD1191F68A300FE9A15 /* libopencv_flann.dylib in Frameworks */,
+				F8805CD2191F68A300FE9A15 /* libopencv_highgui.dylib in Frameworks */,
+				F8805CD3191F68A300FE9A15 /* libopencv_imgproc.dylib in Frameworks */,
+				F8805CD4191F68A300FE9A15 /* libopencv_video.dylib in Frameworks */,
 				F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,6 +166,16 @@
 		F8429F11191F0AE60079D2B3 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */,
+				F8805CA6191F678100FE9A15 /* HomoMatrix3.h */,
+				F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */,
+				F8805CA8191F678100FE9A15 /* HomoMatrix4.h */,
+				F8805CA9191F678100FE9A15 /* HomoVector4.cpp */,
+				F8805CAA191F678100FE9A15 /* HomoVector4.h */,
+				F8805CAB191F678100FE9A15 /* Vector2.cpp */,
+				F8805CAC191F678100FE9A15 /* Vector2.h */,
+				F8805CAD191F678100FE9A15 /* Vector3.cpp */,
+				F8805CAE191F678100FE9A15 /* Vector3.h */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -107,6 +183,14 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8805CBD191F684E00FE9A15 /* Deformation.cpp */,
+				F8805CBE191F684E00FE9A15 /* Deformation.h */,
+				F8805CBF191F684E00FE9A15 /* Retargetting.cpp */,
+				F8805CC0191F684E00FE9A15 /* Retargetting.h */,
+				F8805CC1191F684E00FE9A15 /* Saliency.cpp */,
+				F8805CC2191F684E00FE9A15 /* Saliency.h */,
+				F8805CC3191F684E00FE9A15 /* Segmentation.cpp */,
+				F8805CC4191F684E00FE9A15 /* Segmentation.h */,
 			);
 			name = DIP;
 			sourceTree = "<group>";
@@ -114,6 +198,12 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F8805CB4191F680B00FE9A15 /* Clustering.cpp */,
+				F8805CB5191F680B00FE9A15 /* Clustering.h */,
+				F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */,
+				F8805CB7191F680B00FE9A15 /* GaussianMixtureModel.h */,
+				F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */,
+				F8805CB9191F680B00FE9A15 /* PrincipalComponentAnalysis.h */,
 			);
 			name = MachineLearning;
 			sourceTree = "<group>";
@@ -121,6 +211,7 @@
 		F8429F14191F0B1F0079D2B3 /* Dependence */ = {
 			isa = PBXGroup;
 			children = (
+				F847541C191F49C500784E1D /* Flann */,
 				F8429F3C191F0BD40079D2B3 /* GraphCut */,
 			);
 			name = Dependence;
@@ -138,6 +229,17 @@
 				F8429F43191F0BEC0079D2B3 /* README.TXT */,
 			);
 			name = GraphCut;
+			sourceTree = "<group>";
+		};
+		F847541C191F49C500784E1D /* Flann */ = {
+			isa = PBXGroup;
+			children = (
+				F847541D191F49FF00784E1D /* flann_cpp.cpp */,
+				F847541E191F49FF00784E1D /* flann.cpp */,
+				F847541F191F49FF00784E1D /* flann.h */,
+				F8475420191F49FF00784E1D /* flann.hpp */,
+			);
+			name = Flann;
 			sourceTree = "<group>";
 		};
 		F891E12E191E703800FE7290 = {
@@ -162,6 +264,18 @@
 		F891E139191E703800FE7290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */,
+				F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */,
+				F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */,
+				F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */,
+				F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */,
+				F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */,
+				F8475423191F4FF600784E1D /* libopencv_calib3d.dylib */,
+				F8475424191F4FF600784E1D /* libopencv_core.dylib */,
+				F8475425191F4FF600784E1D /* libopencv_flann.dylib */,
+				F8475426191F4FF600784E1D /* libopencv_highgui.dylib */,
+				F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */,
+				F8475428191F4FF600784E1D /* libopencv_video.dylib */,
 				F891E13A191E703800FE7290 /* Cocoa.framework */,
 				F891E159191E703900FE7290 /* XCTest.framework */,
 				F891E13C191E703800FE7290 /* Other Frameworks */,
@@ -326,10 +440,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */,
+				F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */,
+				F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */,
+				F8475422191F49FF00784E1D /* flann.cpp in Sources */,
+				F8805CB3191F678100FE9A15 /* Vector3.cpp in Sources */,
+				F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */,
+				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
+				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
+				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
+				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
+				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
+				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
+				F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
+				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 			);
@@ -421,8 +549,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
+				PRELINK_LIBS = "";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -454,6 +587,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				SDKROOT = macosx;
 			};
@@ -463,10 +600,25 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./MagicFace/Src/Dependence/Flann1.8.4/**",
+					"./MagicFace/Src/Dependence/OpenCV/include/**",
+					./MagicFace/Src/Dependence/Eigen3.2.0,
+				);
 				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "";
+				LIBRARY_SEARCH_PATHS = (
+					./MagicFace/Src/Dependence/OpenCV/lib/debug,
+					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Debug",
+					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Release",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,10 +628,24 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MagicFace/MagicFace-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"./MagicFace/Src/Dependence/Flann1.8.4/**",
+					"./MagicFace/Src/Dependence/OpenCV/include/**",
+					./MagicFace/Src/Dependence/Eigen3.2.0,
+				);
 				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					./MagicFace/Src/Dependence/OpenCV/lib/release,
+					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Debug",
+					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Release",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
