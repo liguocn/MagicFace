@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F15191F0B410079D2B3 /* LogSystem.cpp */; };
+		F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */; };
+		F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F3F191F0BEC0079D2B3 /* graph.cpp */; };
+		F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = F8429F41191F0BEC0079D2B3 /* instances.inc */; };
+		F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F42191F0BEC0079D2B3 /* maxflow.cpp */; };
+		F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F43191F0BEC0079D2B3 /* README.TXT */; };
 		F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E145191E703800FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E143191E703800FE7290 /* InfoPlist.strings */; };
 		F891E147191E703800FE7290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E146191E703800FE7290 /* main.m */; };
@@ -31,6 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8429F15191F0B410079D2B3 /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
+		F8429F16191F0B410079D2B3 /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = Src/Tool/LogSystem.h; sourceTree = "<group>"; };
+		F8429F3D191F0BEC0079D2B3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Src/Dependence/GraphCut/block.h; sourceTree = "<group>"; };
+		F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGES.TXT; path = Src/Dependence/GraphCut/CHANGES.TXT; sourceTree = "<group>"; };
+		F8429F3F191F0BEC0079D2B3 /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graph.cpp; path = Src/Dependence/GraphCut/graph.cpp; sourceTree = "<group>"; };
+		F8429F40191F0BEC0079D2B3 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = Src/Dependence/GraphCut/graph.h; sourceTree = "<group>"; };
+		F8429F41191F0BEC0079D2B3 /* instances.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = instances.inc; path = Src/Dependence/GraphCut/instances.inc; sourceTree = "<group>"; };
+		F8429F42191F0BEC0079D2B3 /* maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maxflow.cpp; path = Src/Dependence/GraphCut/maxflow.cpp; sourceTree = "<group>"; };
+		F8429F43191F0BEC0079D2B3 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.TXT; path = Src/Dependence/GraphCut/README.TXT; sourceTree = "<group>"; };
 		F891E137191E703800FE7290 /* MagicFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F891E13A191E703800FE7290 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F891E13D191E703800FE7290 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -73,6 +88,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8429F10191F0ADF0079D2B3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F8429F15191F0B410079D2B3 /* LogSystem.cpp */,
+				F8429F16191F0B410079D2B3 /* LogSystem.h */,
+			);
+			name = Tool;
+			sourceTree = "<group>";
+		};
+		F8429F11191F0AE60079D2B3 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		F8429F12191F0AEB0079D2B3 /* DIP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DIP;
+			sourceTree = "<group>";
+		};
+		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MachineLearning;
+			sourceTree = "<group>";
+		};
+		F8429F14191F0B1F0079D2B3 /* Dependence */ = {
+			isa = PBXGroup;
+			children = (
+				F8429F3C191F0BD40079D2B3 /* GraphCut */,
+			);
+			name = Dependence;
+			sourceTree = "<group>";
+		};
+		F8429F3C191F0BD40079D2B3 /* GraphCut */ = {
+			isa = PBXGroup;
+			children = (
+				F8429F3D191F0BEC0079D2B3 /* block.h */,
+				F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */,
+				F8429F3F191F0BEC0079D2B3 /* graph.cpp */,
+				F8429F40191F0BEC0079D2B3 /* graph.h */,
+				F8429F41191F0BEC0079D2B3 /* instances.inc */,
+				F8429F42191F0BEC0079D2B3 /* maxflow.cpp */,
+				F8429F43191F0BEC0079D2B3 /* README.TXT */,
+			);
+			name = GraphCut;
+			sourceTree = "<group>";
+		};
 		F891E12E191E703800FE7290 = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +182,11 @@
 		F891E140191E703800FE7290 /* MagicFace */ = {
 			isa = PBXGroup;
 			children = (
+				F8429F14191F0B1F0079D2B3 /* Dependence */,
+				F8429F13191F0AF30079D2B3 /* MachineLearning */,
+				F8429F12191F0AEB0079D2B3 /* DIP */,
+				F8429F11191F0AE60079D2B3 /* Math */,
+				F8429F10191F0ADF0079D2B3 /* Tool */,
 				F891E14C191E703800FE7290 /* AppDelegate.h */,
 				F891E14D191E703800FE7290 /* AppDelegate.m */,
 				F891E14F191E703800FE7290 /* MainMenu.xib */,
@@ -230,8 +302,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */,
 				F891E145191E703800FE7290 /* InfoPlist.strings in Resources */,
 				F891E153191E703800FE7290 /* Images.xcassets in Resources */,
+				F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */,
 				F891E14B191E703800FE7290 /* Credits.rtf in Resources */,
 				F891E151191E703800FE7290 /* MainMenu.xib in Resources */,
 			);
@@ -253,7 +327,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
+				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
+				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
+				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
+				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +544,7 @@
 				F891E16A191E703900FE7290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F891E16B191E703900FE7290 /* Build configuration list for PBXNativeTarget "MagicFaceTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +553,7 @@
 				F891E16D191E703900FE7290 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
