@@ -33,6 +33,11 @@
 		F8805CD2191F68A300FE9A15 /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */; };
 		F8805CD3191F68A300FE9A15 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */; };
 		F8805CD4191F68A300FE9A15 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */; };
+		F88401D11920F2020022FEEE /* AppBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401CE1920F2020022FEEE /* AppBase.m */; };
+		F88401D21920F2020022FEEE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401D01920F2020022FEEE /* AppManager.m */; };
+		F88401D61920F2C90022FEEE /* Face2DApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401D51920F2C90022FEEE /* Face2DApp.m */; };
+		F88401D91920F3100022FEEE /* Face2DView.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401D81920F3100022FEEE /* Face2DView.m */; };
+		F88401DF1920F3900022FEEE /* Face2DController.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401DE1920F3900022FEEE /* Face2DController.m */; };
 		F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E145191E703800FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E143191E703800FE7290 /* InfoPlist.strings */; };
 		F891E147191E703800FE7290 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E146191E703800FE7290 /* main.m */; };
@@ -106,6 +111,16 @@
 		F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_highgui.dylib; sourceTree = "<group>"; };
 		F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_imgproc.dylib; sourceTree = "<group>"; };
 		F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_video.dylib; sourceTree = "<group>"; };
+		F88401CD1920F2020022FEEE /* AppBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppBase.h; path = Src/App/Common/AppBase.h; sourceTree = "<group>"; };
+		F88401CE1920F2020022FEEE /* AppBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppBase.m; path = Src/App/Common/AppBase.m; sourceTree = "<group>"; };
+		F88401CF1920F2020022FEEE /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = Src/App/Common/AppManager.h; sourceTree = "<group>"; };
+		F88401D01920F2020022FEEE /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppManager.m; path = Src/App/Common/AppManager.m; sourceTree = "<group>"; };
+		F88401D41920F2C90022FEEE /* Face2DApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DApp.h; path = Src/App/Face2D/Face2DApp.h; sourceTree = "<group>"; };
+		F88401D51920F2C90022FEEE /* Face2DApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Face2DApp.m; path = Src/App/Face2D/Face2DApp.m; sourceTree = "<group>"; };
+		F88401D71920F3100022FEEE /* Face2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DView.h; path = Src/App/Face2D/Face2DView.h; sourceTree = "<group>"; };
+		F88401D81920F3100022FEEE /* Face2DView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Face2DView.m; path = Src/App/Face2D/Face2DView.m; sourceTree = "<group>"; };
+		F88401DD1920F3900022FEEE /* Face2DController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DController.h; path = Src/App/Face2D/Face2DController.h; sourceTree = "<group>"; };
+		F88401DE1920F3900022FEEE /* Face2DController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Face2DController.m; path = Src/App/Face2D/Face2DController.m; sourceTree = "<group>"; };
 		F891E137191E703800FE7290 /* MagicFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F891E13A191E703800FE7290 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F891E13D191E703800FE7290 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -242,6 +257,39 @@
 			name = Flann;
 			sourceTree = "<group>";
 		};
+		F88401CB1920F1E60022FEEE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				F88401D31920F2510022FEEE /* Face2D */,
+				F88401CC1920F1ED0022FEEE /* Common */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		F88401CC1920F1ED0022FEEE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				F88401CD1920F2020022FEEE /* AppBase.h */,
+				F88401CE1920F2020022FEEE /* AppBase.m */,
+				F88401CF1920F2020022FEEE /* AppManager.h */,
+				F88401D01920F2020022FEEE /* AppManager.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		F88401D31920F2510022FEEE /* Face2D */ = {
+			isa = PBXGroup;
+			children = (
+				F88401D41920F2C90022FEEE /* Face2DApp.h */,
+				F88401D51920F2C90022FEEE /* Face2DApp.m */,
+				F88401D71920F3100022FEEE /* Face2DView.h */,
+				F88401D81920F3100022FEEE /* Face2DView.m */,
+				F88401DD1920F3900022FEEE /* Face2DController.h */,
+				F88401DE1920F3900022FEEE /* Face2DController.m */,
+			);
+			name = Face2D;
+			sourceTree = "<group>";
+		};
 		F891E12E191E703800FE7290 = {
 			isa = PBXGroup;
 			children = (
@@ -296,6 +344,7 @@
 		F891E140191E703800FE7290 /* MagicFace */ = {
 			isa = PBXGroup;
 			children = (
+				F88401CB1920F1E60022FEEE /* App */,
 				F8429F14191F0B1F0079D2B3 /* Dependence */,
 				F8429F13191F0AF30079D2B3 /* MachineLearning */,
 				F8429F12191F0AEB0079D2B3 /* DIP */,
@@ -441,15 +490,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */,
+				F88401D61920F2C90022FEEE /* Face2DApp.m in Sources */,
 				F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */,
 				F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */,
 				F8475422191F49FF00784E1D /* flann.cpp in Sources */,
 				F8805CB3191F678100FE9A15 /* Vector3.cpp in Sources */,
 				F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */,
+				F88401D11920F2020022FEEE /* AppBase.m in Sources */,
 				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
 				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
 				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
+				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
 				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
 				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
@@ -458,8 +510,10 @@
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
 				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
+				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
+				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
