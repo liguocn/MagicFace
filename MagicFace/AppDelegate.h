@@ -12,9 +12,9 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
-@property (retain) NSView* mpMainView;
+@property (retain) NSView* mMainView;
 
-@property (retain) IBOutlet Face2DController *mpFace2DController;
+@property (retain) IBOutlet Face2DController *mFace2DController;
 
 - (IBAction)BackHome:(id)sender;
 - (IBAction)EnterFace2DApp:(id)sender;

@@ -13,6 +13,7 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
+                <outlet property="mFace2DController" destination="yXZ-UF-Pch" id="oNn-fg-mRw"/>
                 <outlet property="mpFace2DController" destination="yXZ-UF-Pch" id="fIb-5D-CUb"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
@@ -679,7 +680,7 @@
                     <button toolTip="Face2D Application" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNO-vn-N14">
                         <rect key="frame" x="176" y="78" width="128" height="125"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Face2D" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Tink" inset="2" id="63F-Ra-HHB">
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Face2D" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Frog" inset="2" id="63F-Ra-HHB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
@@ -701,7 +702,8 @@
         </window>
         <viewController id="yXZ-UF-Pch" customClass="Face2DController">
             <connections>
-                <outlet property="mpMainView" destination="rVP-Zm-1Om" id="hIf-wy-Brx"/>
+                <outlet property="mLeftImageView" destination="Sso-2g-YNa" id="Zhu-10-cuT"/>
+                <outlet property="view" destination="rVP-Zm-1Om" id="LlZ-Ew-sMH"/>
             </connections>
         </viewController>
         <customView id="rVP-Zm-1Om" customClass="Face2DView">
@@ -738,54 +740,75 @@
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="LoadImage:" target="yXZ-UF-Pch" id="6dt-TD-Xgm"/>
+                    </connections>
                 </button>
                 <button toolTip="Edit feature points." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rhg-zz-zfj">
                     <rect key="frame" x="151" y="22" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="edit" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="Ynu-dL-q8D">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="edit" imagePosition="overlaps" alignment="center" inset="2" id="Ynu-dL-q8D">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="EditFeaturePoints:" target="yXZ-UF-Pch" id="dWh-mQ-2lK"/>
+                    </connections>
                 </button>
                 <button toolTip="Deform face feature." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ig2-Wu-8DA">
                     <rect key="frame" x="219" y="22" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformFeature" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="Ha0-Bh-B2Q">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformFeature" imagePosition="overlaps" alignment="center" inset="2" id="Ha0-Bh-B2Q">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="DeformFeature:" target="yXZ-UF-Pch" id="emD-Po-mRX"/>
+                    </connections>
                 </button>
                 <button toolTip="Deform face color." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6tJ-iF-WKK">
                     <rect key="frame" x="287" y="22" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformColor" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="jC5-Ao-wVg">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformColor" imagePosition="overlaps" alignment="center" inset="2" id="jC5-Ao-wVg">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="DeformColor:" target="yXZ-UF-Pch" id="Jdy-5K-f6M"/>
+                    </connections>
                 </button>
                 <button toolTip="Load reference image." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gq0-UX-qX4">
                     <rect key="frame" x="703" y="22" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="open" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="cXZ-kx-ct4">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="open" imagePosition="overlaps" alignment="center" inset="2" id="cXZ-kx-ct4">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="LoadRefImage:" target="yXZ-UF-Pch" id="1IW-dB-HIz"/>
+                    </connections>
                 </button>
                 <button toolTip="Calculate face feature." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yNn-98-mdC">
-                    <rect key="frame" x="771" y="22" width="60" height="57"/>
+                    <rect key="frame" x="771" y="20" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformFeature" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="8lM-yH-Hko">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformFeature" imagePosition="only" alignment="center" inset="2" id="8lM-yH-Hko">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="CalRefFeature:" target="yXZ-UF-Pch" id="MfS-Ei-JoS"/>
+                    </connections>
                 </button>
                 <button toolTip="Calculate face color." verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rSS-SC-cz4">
-                    <rect key="frame" x="839" y="22" width="60" height="57"/>
+                    <rect key="frame" x="839" y="20" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformColor" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" inset="2" id="W18-MZ-Vlm">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="DeformColor" imagePosition="overlaps" alignment="center" inset="2" id="W18-MZ-Vlm">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
+                    <connections>
+                        <action selector="CalRefColor:" target="yXZ-UF-Pch" id="nfA-hR-5ga"/>
+                    </connections>
                 </button>
                 <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Jd-Kn-Evs">
                     <rect key="frame" x="10" y="344" width="60" height="60"/>
@@ -830,7 +853,7 @@
                 <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wqC-CV-P2m">
                     <rect key="frame" x="10" y="22" width="60" height="57"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="home" imagePosition="only" alignment="center" imageScaling="proportionallyDown" inset="2" id="HCF-IO-O0d">
+                    <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="home" imagePosition="only" alignment="center" imageScaling="proportionallyDown" sound="Submarine" inset="2" id="HCF-IO-O0d">
                         <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                         <font key="font" metaFont="system"/>
                     </buttonCell>
@@ -848,6 +871,7 @@
         <image name="edit" width="60" height="60"/>
         <image name="home" width="60" height="60"/>
         <image name="open" width="60" height="60"/>
-        <sound name="Tink"/>
+        <sound name="Frog"/>
+        <sound name="Submarine"/>
     </resources>
 </document>

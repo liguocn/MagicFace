@@ -7,10 +7,28 @@
 //
 
 #import <Cocoa/Cocoa.h>
-#import "Face2DView.h"
+//#import "Face2DView.h"
 
 @interface Face2DController : NSViewController
+enum MouseMode
+{
+    MM_View,
+    MM_Move_Feature
+};
 
-@property (retain) IBOutlet Face2DView* mpMainView;
+//@property (retain) IBOutlet Face2DView* mMainView;
+@property (retain) IBOutlet NSImageView* mLeftImageView;
+@property NSRect mLeftImageRect;
+@property enum MouseMode mMouseMode;
+@property BOOL mIsFeaturePointSelected;
+
+- (NSPoint)TransferToLeftImagePositon:(NSPoint)mousePos;
+- (IBAction)LoadImage:(id)sender;
+- (IBAction)EditFeaturePoints:(id)sender;
+- (IBAction)DeformFeature:(id)sender;
+- (IBAction)DeformColor:(id)sender;
+- (IBAction)LoadRefImage:(id)sender;
+- (IBAction)CalRefFeature:(id)sender;
+- (IBAction)CalRefColor:(id)sender;
 
 @end
