@@ -10,13 +10,21 @@
 
 @implementation AppDelegate
 
+- (void)SetHomeFrame
+{
+    [self.window setFrame:NSMakeRect(448, 456, 480, 400) display:YES];
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    [self SetHomeFrame];
+    self.mpMainView = self.window.contentView;
 }
 
 - (IBAction)BackHome:(id)sender
 {
+    [self SetHomeFrame];
     self.window.contentView = self.mpMainView;
 }
 
