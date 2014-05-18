@@ -27,7 +27,7 @@
         self.mpFace2DController = [[Face2DController alloc] init];
     }
     //[self.window setMaxSize:NSMakeSize(1024, 768)];
-    [self.window setFrame:NSMakeRect(448, 156, 1024, 768) display:YES];
+    [self.window setFrame:NSMakeRect(448, 456, 1024, 520) display:YES];
     self.window.contentView = self.mpFace2DController.mpMainView;
 }
 
