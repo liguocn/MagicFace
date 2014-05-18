@@ -34,6 +34,12 @@
 - (IBAction)LoadImage:(id)sender
 {
     self.mLeftImageRect = [self.mLeftImageView.cell drawingRectForBounds:self.mLeftImageView.bounds];
+    NSOpenPanel *filePanel = [NSOpenPanel openPanel];
+    if ([filePanel runModal] == NSOKButton)
+    {
+        NSString *filePath = [[[filePanel URLs] objectAtIndex:0] path];
+        NSLog(@"filePath: %s\n", [filePath UTF8String]);
+    }
 }
 
 - (IBAction)EditFeaturePoints:(id)sender
