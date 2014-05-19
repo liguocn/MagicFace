@@ -49,6 +49,8 @@
 		F891E15B191E703900FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E163191E703900FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E161191E703900FE7290 /* InfoPlist.strings */; };
 		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
+		F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D0192A318B00E39243 /* LinearRegression.cpp */; };
+		F89329D6192A31D700E39243 /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D4192A31D700E39243 /* Face2D.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -140,6 +142,10 @@
 		F891E160191E703900FE7290 /* MagicFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicFaceTests-Info.plist"; sourceTree = "<group>"; };
 		F891E162191E703900FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F891E164191E703900FE7290 /* MagicFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFaceTests.m; sourceTree = "<group>"; };
+		F89329D0192A318B00E39243 /* LinearRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearRegression.cpp; path = Src/MachineLearning/LinearRegression.cpp; sourceTree = "<group>"; };
+		F89329D1192A318B00E39243 /* LinearRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearRegression.h; path = Src/MachineLearning/LinearRegression.h; sourceTree = "<group>"; };
+		F89329D4192A31D700E39243 /* Face2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2D.cpp; path = Src/AppModules/Face2D.cpp; sourceTree = "<group>"; };
+		F89329D5192A31D700E39243 /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = Src/AppModules/Face2D.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -213,6 +219,8 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F89329D0192A318B00E39243 /* LinearRegression.cpp */,
+				F89329D1192A318B00E39243 /* LinearRegression.h */,
 				F8805CB4191F680B00FE9A15 /* Clustering.cpp */,
 				F8805CB5191F680B00FE9A15 /* Clustering.h */,
 				F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */,
@@ -344,6 +352,7 @@
 		F891E140191E703800FE7290 /* MagicFace */ = {
 			isa = PBXGroup;
 			children = (
+				F89329D3192A31BE00E39243 /* AppModules */,
 				F88401CB1920F1E60022FEEE /* App */,
 				F8429F14191F0B1F0079D2B3 /* Dependence */,
 				F8429F13191F0AF30079D2B3 /* MachineLearning */,
@@ -387,6 +396,15 @@
 				F891E161191E703900FE7290 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89329D3192A31BE00E39243 /* AppModules */ = {
+			isa = PBXGroup;
+			children = (
+				F89329D4192A31D700E39243 /* Face2D.cpp */,
+				F89329D5192A31D700E39243 /* Face2D.h */,
+			);
+			name = AppModules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -500,6 +518,7 @@
 				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
 				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
 				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
+				F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */,
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
@@ -514,6 +533,7 @@
 				F891E147191E703800FE7290 /* main.m in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
+				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

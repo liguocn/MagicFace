@@ -13,8 +13,9 @@ namespace MagicML
         void Analyse(const std::vector<double>& data, int dataDim, int pcaDim);
         std::vector<double> GetEigenVector(int k);
         double GetEigenValue(int k);
-        std::vector<double> GetAvgVector(void);
+        std::vector<double> GetMeanVector(void);
         std::vector<double> Project(const std::vector<double>& data);
+        std::vector<double> TruncateProject(const std::vector<double>& data, double truncateCoef);
         void Load(const std::string& fileName);
         void Save(const std::string& fileName);
 
@@ -26,6 +27,6 @@ namespace MagicML
         int mPcaDim;
         std::vector<double> mEigenVectors;
         std::vector<double> mEigenValues;
-        std::vector<double> mAvgVector;
+        std::vector<double> mMeanVector;
     };
 }
