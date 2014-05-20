@@ -7,6 +7,8 @@
 //
 
 #import "Face2DController.h"
+#import "AppManager.h"
+#import "Face2DApp.h"
 
 @interface Face2DController ()
 
@@ -31,6 +33,7 @@
     return posInImg;
 }
 
+
 - (IBAction)LoadImage:(id)sender
 {
     self.mLeftImageRect = [self.mLeftImageView.cell drawingRectForBounds:self.mLeftImageView.bounds];
@@ -38,7 +41,15 @@
     if ([filePanel runModal] == NSOKButton)
     {
         NSString *filePath = [[[filePanel URLs] objectAtIndex:0] path];
-        NSLog(@"filePath: %s\n", [filePath UTF8String]);
+        Face2DApp* f2dApp = (Face2DApp*)[[AppManager GetAppManager] GetApp:@"Face2DApp"];
+        NSImage* img = [f2dApp LoadImage:filePath];
+        //NSImage* img = [[NSImage alloc] initWithContentsOfFile:filePath];
+        //NSImage* img = [[NSImage alloc] initWithContentsOfURL:[[filePanel URLs] objectAtIndex:0]];
+        NSBitmapImageRep* imgRep = [[img representations] objectAtIndex:0];
+        NSSize imgSize = [imgRep size];
+        NSLog(@"image size: %f, %f\n", imgSize.width, imgSize.height);
+        [self.mLeftImageView setImage:img];
+        [self.mLeftImageView setImageAlignment:NSImageAlignTopLeft];
     }
 }
 

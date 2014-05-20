@@ -13,11 +13,14 @@
 enum MouseMode
 {
     MM_View,
-    MM_Move_Feature
+    MM_Move_Feature,
+    MM_Auto_Align_Feature
 };
 
 //@property (retain) IBOutlet Face2DView* mMainView;
 @property (retain) IBOutlet NSImageView* mLeftImageView;
+@property (retain) IBOutlet NSImageView* mMidImageView;
+@property (retain) IBOutlet NSImageView* mRightImageView;
 @property NSRect mLeftImageRect;
 @property enum MouseMode mMouseMode;
 @property BOOL mIsFeaturePointSelected;

@@ -10,4 +10,6 @@
 
 @interface Face2DApp : AppBase
 
+- (NSImage*)LoadImage:(NSString*)filePath;
+
 @end

@@ -703,6 +703,8 @@
         <viewController id="yXZ-UF-Pch" customClass="Face2DController">
             <connections>
                 <outlet property="mLeftImageView" destination="Sso-2g-YNa" id="Zhu-10-cuT"/>
+                <outlet property="mMidImageView" destination="i4Z-0J-QeE" id="Y4S-Ck-tcX"/>
+                <outlet property="mRightImageView" destination="E4o-ZZ-9Eq" id="Nne-3h-9vg"/>
                 <outlet property="view" destination="rVP-Zm-1Om" id="LlZ-Ew-sMH"/>
             </connections>
         </viewController>
