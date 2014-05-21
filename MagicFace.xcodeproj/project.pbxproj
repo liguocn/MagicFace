@@ -52,6 +52,7 @@
 		F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D0192A318B00E39243 /* LinearRegression.cpp */; };
 		F89329D6192A31D700E39243 /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D4192A31D700E39243 /* Face2D.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
+		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +150,8 @@
 		F89329D5192A31D700E39243 /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = Src/AppModules/Face2D.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
+		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
+		F8FC9CB1192CC41700516071 /* FeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureDetection.h; path = Src/DIP/FeatureDetection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +210,8 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */,
+				F8FC9CB1192CC41700516071 /* FeatureDetection.h */,
 				F8805CBD191F684E00FE9A15 /* Deformation.cpp */,
 				F8805CBE191F684E00FE9A15 /* Deformation.h */,
 				F8805CBF191F684E00FE9A15 /* Retargetting.cpp */,
@@ -545,6 +550,7 @@
 				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
 				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
+				F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
 				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
