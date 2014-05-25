@@ -15,6 +15,9 @@
 		F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F43191F0BEC0079D2B3 /* README.TXT */; };
 		F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541D191F49FF00784E1D /* flann_cpp.cpp */; };
 		F8475422191F49FF00784E1D /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541E191F49FF00784E1D /* flann.cpp */; };
+		F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */; };
+		F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DE1931695A00F72A18 /* Face2DObj.cpp */; };
+		F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */; };
 		F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3C192CEDA60008AD0E /* MagicObject.cpp */; };
 		F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */; };
 		F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */; };
@@ -87,6 +90,12 @@
 		F8475426191F4FF600784E1D /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_highgui.dylib; sourceTree = "<group>"; };
 		F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_imgproc.dylib; sourceTree = "<group>"; };
 		F8475428191F4FF600784E1D /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_video.dylib; sourceTree = "<group>"; };
+		F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicImageProcess.cpp; path = Src/AppModules/BasicImageProcess.cpp; sourceTree = "<group>"; };
+		F87040DD1931695A00F72A18 /* BasicImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicImageProcess.h; path = Src/AppModules/BasicImageProcess.h; sourceTree = "<group>"; };
+		F87040DE1931695A00F72A18 /* Face2DObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2DObj.cpp; path = Src/AppModules/Face2DObj.cpp; sourceTree = "<group>"; };
+		F87040DF1931695A00F72A18 /* Face2DObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DObj.h; path = Src/AppModules/Face2DObj.h; sourceTree = "<group>"; };
+		F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeaturePoints.cpp; path = Src/AppModules/FaceFeaturePoints.cpp; sourceTree = "<group>"; };
+		F87040E11931695A00F72A18 /* FaceFeaturePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeaturePoints.h; path = Src/AppModules/FaceFeaturePoints.h; sourceTree = "<group>"; };
 		F870AC3C192CEDA60008AD0E /* MagicObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObject.cpp; path = Src/AppModules/MagicObject.cpp; sourceTree = "<group>"; };
 		F870AC3D192CEDA60008AD0E /* MagicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObject.h; path = Src/AppModules/MagicObject.h; sourceTree = "<group>"; };
 		F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObjectManager.cpp; path = Src/AppModules/MagicObjectManager.cpp; sourceTree = "<group>"; };
@@ -416,6 +425,12 @@
 		F89329D3192A31BE00E39243 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
+				F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */,
+				F87040DD1931695A00F72A18 /* BasicImageProcess.h */,
+				F87040DE1931695A00F72A18 /* Face2DObj.cpp */,
+				F87040DF1931695A00F72A18 /* Face2DObj.h */,
+				F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */,
+				F87040E11931695A00F72A18 /* FaceFeaturePoints.h */,
 				F89329D4192A31D700E39243 /* Face2D.cpp */,
 				F89329D5192A31D700E39243 /* Face2D.h */,
 				F870AC3C192CEDA60008AD0E /* MagicObject.cpp */,
@@ -545,6 +560,7 @@
 				F88401D11920F2020022FEEE /* AppBase.m in Sources */,
 				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
 				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
+				F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */,
 				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
 				F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */,
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
@@ -552,11 +568,13 @@
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
 				F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
+				F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */,
 				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
 				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
 				F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
+				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
 				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
