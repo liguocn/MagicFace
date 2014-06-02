@@ -15,11 +15,13 @@
 		F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F43191F0BEC0079D2B3 /* README.TXT */; };
 		F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541D191F49FF00784E1D /* flann_cpp.cpp */; };
 		F8475422191F49FF00784E1D /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541E191F49FF00784E1D /* flann.cpp */; };
+		F86A9C18193C622400CE9E12 /* KMeansCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */; };
 		F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */; };
 		F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DE1931695A00F72A18 /* Face2DObj.cpp */; };
 		F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */; };
 		F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3C192CEDA60008AD0E /* MagicObject.cpp */; };
 		F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */; };
+		F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */; };
 		F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */; };
 		F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */; };
 		F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA9191F678100FE9A15 /* HomoVector4.cpp */; };
@@ -90,6 +92,8 @@
 		F8475426191F4FF600784E1D /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_highgui.dylib; sourceTree = "<group>"; };
 		F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_imgproc.dylib; sourceTree = "<group>"; };
 		F8475428191F4FF600784E1D /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_video.dylib; sourceTree = "<group>"; };
+		F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KMeansCoding.cpp; path = Src/MachineLearning/KMeansCoding.cpp; sourceTree = "<group>"; };
+		F86A9C17193C622400CE9E12 /* KMeansCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMeansCoding.h; path = Src/MachineLearning/KMeansCoding.h; sourceTree = "<group>"; };
 		F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicImageProcess.cpp; path = Src/AppModules/BasicImageProcess.cpp; sourceTree = "<group>"; };
 		F87040DD1931695A00F72A18 /* BasicImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicImageProcess.h; path = Src/AppModules/BasicImageProcess.h; sourceTree = "<group>"; };
 		F87040DE1931695A00F72A18 /* Face2DObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2DObj.cpp; path = Src/AppModules/Face2DObj.cpp; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 		F870AC3D192CEDA60008AD0E /* MagicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObject.h; path = Src/AppModules/MagicObject.h; sourceTree = "<group>"; };
 		F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObjectManager.cpp; path = Src/AppModules/MagicObjectManager.cpp; sourceTree = "<group>"; };
 		F870AC40192CEEE50008AD0E /* MagicObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObjectManager.h; path = Src/AppModules/MagicObjectManager.h; sourceTree = "<group>"; };
+		F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseCoding.cpp; path = Src/MachineLearning/SparseCoding.cpp; sourceTree = "<group>"; };
+		F87A0E73193B5D0B00790C1D /* SparseCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseCoding.h; path = Src/MachineLearning/SparseCoding.h; sourceTree = "<group>"; };
 		F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix3.cpp; path = Src/Math/HomoMatrix3.cpp; sourceTree = "<group>"; };
 		F8805CA6191F678100FE9A15 /* HomoMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix3.h; path = Src/Math/HomoMatrix3.h; sourceTree = "<group>"; };
 		F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix4.cpp; path = Src/Math/HomoMatrix4.cpp; sourceTree = "<group>"; };
@@ -250,6 +256,10 @@
 				F8805CB7191F680B00FE9A15 /* GaussianMixtureModel.h */,
 				F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */,
 				F8805CB9191F680B00FE9A15 /* PrincipalComponentAnalysis.h */,
+				F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */,
+				F87A0E73193B5D0B00790C1D /* SparseCoding.h */,
+				F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */,
+				F86A9C17193C622400CE9E12 /* KMeansCoding.h */,
 			);
 			name = MachineLearning;
 			sourceTree = "<group>";
@@ -570,8 +580,10 @@
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
 				F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */,
 				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
+				F86A9C18193C622400CE9E12 /* KMeansCoding.cpp in Sources */,
 				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
 				F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */,
+				F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
