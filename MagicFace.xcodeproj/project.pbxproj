@@ -58,6 +58,7 @@
 		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
 		F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D0192A318B00E39243 /* LinearRegression.cpp */; };
 		F89329D6192A31D700E39243 /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D4192A31D700E39243 /* Face2D.cpp */; };
+		F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9295193DF65800FCD1F0 /* Classification.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
 		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
 /* End PBXBuildFile section */
@@ -169,6 +170,8 @@
 		F89329D1192A318B00E39243 /* LinearRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearRegression.h; path = Src/MachineLearning/LinearRegression.h; sourceTree = "<group>"; };
 		F89329D4192A31D700E39243 /* Face2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2D.cpp; path = Src/AppModules/Face2D.cpp; sourceTree = "<group>"; };
 		F89329D5192A31D700E39243 /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = Src/AppModules/Face2D.h; sourceTree = "<group>"; };
+		F8AA9295193DF65800FCD1F0 /* Classification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Classification.cpp; path = Src/DIP/Classification.cpp; sourceTree = "<group>"; };
+		F8AA9296193DF65800FCD1F0 /* Classification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Classification.h; path = Src/DIP/Classification.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
 		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				F8805CC2191F684E00FE9A15 /* Saliency.h */,
 				F8805CC3191F684E00FE9A15 /* Segmentation.cpp */,
 				F8805CC4191F684E00FE9A15 /* Segmentation.h */,
+				F8AA9295193DF65800FCD1F0 /* Classification.cpp */,
+				F8AA9296193DF65800FCD1F0 /* Classification.h */,
 			);
 			name = DIP;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 				F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
+				F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */,
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
