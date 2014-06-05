@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F816226C194089A700765768 /* AdaBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162264194089A700765768 /* AdaBoost.cpp */; };
+		F816226D194089A700765768 /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162266194089A700765768 /* LogisticRegression.cpp */; };
+		F816226E194089A700765768 /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162268194089A700765768 /* NaiveBayes.cpp */; };
+		F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F816226A194089A700765768 /* SupportVectorMachine.cpp */; };
+		F8162272194089D000765768 /* BasicFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162270194089D000765768 /* BasicFunction.cpp */; };
 		F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F15191F0B410079D2B3 /* LogSystem.cpp */; };
 		F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */; };
 		F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F3F191F0BEC0079D2B3 /* graph.cpp */; };
@@ -74,6 +79,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8162264194089A700765768 /* AdaBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AdaBoost.cpp; path = Src/MachineLearning/AdaBoost.cpp; sourceTree = "<group>"; };
+		F8162265194089A700765768 /* AdaBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaBoost.h; path = Src/MachineLearning/AdaBoost.h; sourceTree = "<group>"; };
+		F8162266194089A700765768 /* LogisticRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogisticRegression.cpp; path = Src/MachineLearning/LogisticRegression.cpp; sourceTree = "<group>"; };
+		F8162267194089A700765768 /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogisticRegression.h; path = Src/MachineLearning/LogisticRegression.h; sourceTree = "<group>"; };
+		F8162268194089A700765768 /* NaiveBayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NaiveBayes.cpp; path = Src/MachineLearning/NaiveBayes.cpp; sourceTree = "<group>"; };
+		F8162269194089A700765768 /* NaiveBayes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaiveBayes.h; path = Src/MachineLearning/NaiveBayes.h; sourceTree = "<group>"; };
+		F816226A194089A700765768 /* SupportVectorMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SupportVectorMachine.cpp; path = Src/MachineLearning/SupportVectorMachine.cpp; sourceTree = "<group>"; };
+		F816226B194089A700765768 /* SupportVectorMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportVectorMachine.h; path = Src/MachineLearning/SupportVectorMachine.h; sourceTree = "<group>"; };
+		F8162270194089D000765768 /* BasicFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicFunction.cpp; path = Src/Math/BasicFunction.cpp; sourceTree = "<group>"; };
+		F8162271194089D000765768 /* BasicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicFunction.h; path = Src/Math/BasicFunction.h; sourceTree = "<group>"; };
 		F8429F15191F0B410079D2B3 /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
 		F8429F16191F0B410079D2B3 /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = Src/Tool/LogSystem.h; sourceTree = "<group>"; };
 		F8429F3D191F0BEC0079D2B3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Src/Dependence/GraphCut/block.h; sourceTree = "<group>"; };
@@ -217,6 +232,8 @@
 		F8429F11191F0AE60079D2B3 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				F8162270194089D000765768 /* BasicFunction.cpp */,
+				F8162271194089D000765768 /* BasicFunction.h */,
 				F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */,
 				F8805CA6191F678100FE9A15 /* HomoMatrix3.h */,
 				F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */,
@@ -253,6 +270,14 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F8162264194089A700765768 /* AdaBoost.cpp */,
+				F8162265194089A700765768 /* AdaBoost.h */,
+				F8162266194089A700765768 /* LogisticRegression.cpp */,
+				F8162267194089A700765768 /* LogisticRegression.h */,
+				F8162268194089A700765768 /* NaiveBayes.cpp */,
+				F8162269194089A700765768 /* NaiveBayes.h */,
+				F816226A194089A700765768 /* SupportVectorMachine.cpp */,
+				F816226B194089A700765768 /* SupportVectorMachine.h */,
 				F89329D0192A318B00E39243 /* LinearRegression.cpp */,
 				F89329D1192A318B00E39243 /* LinearRegression.h */,
 				F8805CB4191F680B00FE9A15 /* Clustering.cpp */,
@@ -565,6 +590,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8162272194089D000765768 /* BasicFunction.cpp in Sources */,
 				F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */,
 				F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */,
 				F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */,
@@ -581,6 +607,7 @@
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
 				F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */,
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
+				F816226D194089A700765768 /* LogisticRegression.cpp in Sources */,
 				F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
 				F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */,
@@ -589,7 +616,9 @@
 				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
 				F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */,
 				F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */,
+				F816226C194089A700765768 /* AdaBoost.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
+				F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
 				F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */,
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
@@ -601,6 +630,7 @@
 				F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
+				F816226E194089A700765768 /* NaiveBayes.cpp in Sources */,
 				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
