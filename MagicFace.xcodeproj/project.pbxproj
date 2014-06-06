@@ -12,6 +12,7 @@
 		F816226E194089A700765768 /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162268194089A700765768 /* NaiveBayes.cpp */; };
 		F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F816226A194089A700765768 /* SupportVectorMachine.cpp */; };
 		F8162272194089D000765768 /* BasicFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162270194089D000765768 /* BasicFunction.cpp */; };
+		F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82503931941E92600B583D3 /* NeuralNetworks.cpp */; };
 		F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F15191F0B410079D2B3 /* LogSystem.cpp */; };
 		F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */; };
 		F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F3F191F0BEC0079D2B3 /* graph.cpp */; };
@@ -89,6 +90,8 @@
 		F816226B194089A700765768 /* SupportVectorMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportVectorMachine.h; path = Src/MachineLearning/SupportVectorMachine.h; sourceTree = "<group>"; };
 		F8162270194089D000765768 /* BasicFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicFunction.cpp; path = Src/Math/BasicFunction.cpp; sourceTree = "<group>"; };
 		F8162271194089D000765768 /* BasicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicFunction.h; path = Src/Math/BasicFunction.h; sourceTree = "<group>"; };
+		F82503931941E92600B583D3 /* NeuralNetworks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralNetworks.cpp; path = Src/MachineLearning/NeuralNetworks.cpp; sourceTree = "<group>"; };
+		F82503941941E92600B583D3 /* NeuralNetworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralNetworks.h; path = Src/MachineLearning/NeuralNetworks.h; sourceTree = "<group>"; };
 		F8429F15191F0B410079D2B3 /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
 		F8429F16191F0B410079D2B3 /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = Src/Tool/LogSystem.h; sourceTree = "<group>"; };
 		F8429F3D191F0BEC0079D2B3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Src/Dependence/GraphCut/block.h; sourceTree = "<group>"; };
@@ -270,6 +273,8 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F82503931941E92600B583D3 /* NeuralNetworks.cpp */,
+				F82503941941E92600B583D3 /* NeuralNetworks.h */,
 				F8162264194089A700765768 /* AdaBoost.cpp */,
 				F8162265194089A700765768 /* AdaBoost.h */,
 				F8162266194089A700765768 /* LogisticRegression.cpp */,
@@ -624,6 +629,7 @@
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
+				F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */,
 				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
 				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
