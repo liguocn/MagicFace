@@ -15,7 +15,7 @@
 		F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82503931941E92600B583D3 /* NeuralNetworks.cpp */; };
 		F8250398194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8250396194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp */; };
 		F825039B19420B3300B583D3 /* KernelFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F825039919420B3300B583D3 /* KernelFunction.cpp */; };
-		F82CA2F61942BDF7004F6D10 /* HiddenMarkovModels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82CA2F41942BDF7004F6D10 /* HiddenMarkovModels.cpp */; };
+		F82CA2F91942C192004F6D10 /* HiddenMarkovModels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */; };
 		F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F15191F0B410079D2B3 /* LogSystem.cpp */; };
 		F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */; };
 		F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F3F191F0BEC0079D2B3 /* graph.cpp */; };
@@ -99,8 +99,8 @@
 		F8250397194209EA00B583D3 /* LinearDiscriminantAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearDiscriminantAnalysis.h; path = Src/MachineLearning/LinearDiscriminantAnalysis.h; sourceTree = "<group>"; };
 		F825039919420B3300B583D3 /* KernelFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KernelFunction.cpp; path = Src/MachineLearning/KernelFunction.cpp; sourceTree = "<group>"; };
 		F825039A19420B3300B583D3 /* KernelFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KernelFunction.h; path = Src/MachineLearning/KernelFunction.h; sourceTree = "<group>"; };
-		F82CA2F41942BDF7004F6D10 /* HiddenMarkovModels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HiddenMarkovModels.cpp; sourceTree = "<group>"; };
-		F82CA2F51942BDF7004F6D10 /* HiddenMarkovModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiddenMarkovModels.h; sourceTree = "<group>"; };
+		F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HiddenMarkovModels.cpp; path = Src/MachineLearning/HiddenMarkovModels.cpp; sourceTree = "<group>"; };
+		F82CA2F81942C192004F6D10 /* HiddenMarkovModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiddenMarkovModels.h; path = Src/MachineLearning/HiddenMarkovModels.h; sourceTree = "<group>"; };
 		F8429F15191F0B410079D2B3 /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
 		F8429F16191F0B410079D2B3 /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = Src/Tool/LogSystem.h; sourceTree = "<group>"; };
 		F8429F3D191F0BEC0079D2B3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Src/Dependence/GraphCut/block.h; sourceTree = "<group>"; };
@@ -282,6 +282,8 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */,
+				F82CA2F81942C192004F6D10 /* HiddenMarkovModels.h */,
 				F82503931941E92600B583D3 /* NeuralNetworks.cpp */,
 				F82503941941E92600B583D3 /* NeuralNetworks.h */,
 				F8162264194089A700765768 /* AdaBoost.cpp */,
@@ -308,8 +310,6 @@
 				F8250397194209EA00B583D3 /* LinearDiscriminantAnalysis.h */,
 				F825039919420B3300B583D3 /* KernelFunction.cpp */,
 				F825039A19420B3300B583D3 /* KernelFunction.h */,
-				F82CA2F41942BDF7004F6D10 /* HiddenMarkovModels.cpp */,
-				F82CA2F51942BDF7004F6D10 /* HiddenMarkovModels.h */,
 			);
 			name = MachineLearning;
 			sourceTree = "<group>";
@@ -645,7 +645,7 @@
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
 				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
-				F82CA2F61942BDF7004F6D10 /* HiddenMarkovModels.cpp in Sources */,
+				F82CA2F91942C192004F6D10 /* HiddenMarkovModels.cpp in Sources */,
 				F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */,
 				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
 				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
