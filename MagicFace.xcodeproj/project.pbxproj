@@ -70,6 +70,8 @@
 		F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */; };
 		F8A4E77B194752EF0081C6D4 /* DeepBeliefNets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */; };
 		F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9295193DF65800FCD1F0 /* Classification.cpp */; };
+		F8AA9DD41948716100FE83B9 /* SparseDeepAutoencoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */; };
+		F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
 		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
 /* End PBXBuildFile section */
@@ -205,6 +207,11 @@
 		F8A4E77A194752EF0081C6D4 /* DeepBeliefNets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeepBeliefNets.h; path = Src/MachineLearning/DeepBeliefNets.h; sourceTree = "<group>"; };
 		F8AA9295193DF65800FCD1F0 /* Classification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Classification.cpp; path = Src/DIP/Classification.cpp; sourceTree = "<group>"; };
 		F8AA9296193DF65800FCD1F0 /* Classification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Classification.h; path = Src/DIP/Classification.h; sourceTree = "<group>"; };
+		F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseDeepAutoencoder.cpp; path = Src/MachineLearning/SparseDeepAutoencoder.cpp; sourceTree = "<group>"; };
+		F8AA9DD31948716100FE83B9 /* SparseDeepAutoencoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseDeepAutoencoder.h; path = Src/MachineLearning/SparseDeepAutoencoder.h; sourceTree = "<group>"; };
+		F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleMLObj.cpp; path = Src/AppModules/SimpleMLObj.cpp; sourceTree = "<group>"; };
+		F8AA9DD61948717000FE83B9 /* SimpleMLObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleMLObj.h; path = Src/AppModules/SimpleMLObj.h; sourceTree = "<group>"; };
+		F8AA9DD81948718600FE83B9 /* ErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorCodes.h; path = Src/Tool/ErrorCodes.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
 		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
@@ -241,6 +248,7 @@
 		F8429F10191F0ADF0079D2B3 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F8AA9DD81948718600FE83B9 /* ErrorCodes.h */,
 				F8429F15191F0B410079D2B3 /* LogSystem.cpp */,
 				F8429F16191F0B410079D2B3 /* LogSystem.h */,
 			);
@@ -288,6 +296,8 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */,
+				F8AA9DD31948716100FE83B9 /* SparseDeepAutoencoder.h */,
 				F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */,
 				F8A4E77A194752EF0081C6D4 /* DeepBeliefNets.h */,
 				F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */,
@@ -495,6 +505,8 @@
 		F89329D3192A31BE00E39243 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
+				F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */,
+				F8AA9DD61948717000FE83B9 /* SimpleMLObj.h */,
 				F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */,
 				F87040DD1931695A00F72A18 /* BasicImageProcess.h */,
 				F87040DE1931695A00F72A18 /* Face2DObj.cpp */,
@@ -666,7 +678,9 @@
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
 				F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */,
 				F825039B19420B3300B583D3 /* KernelFunction.cpp in Sources */,
+				F8AA9DD41948716100FE83B9 /* SparseDeepAutoencoder.cpp in Sources */,
 				F816226E194089A700765768 /* NaiveBayes.cpp in Sources */,
+				F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */,
 				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
