@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F80CCB6D195467090060580E /* DenseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F80CCB6B195467090060580E /* DenseMatrix.cpp */; };
 		F816226C194089A700765768 /* AdaBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162264194089A700765768 /* AdaBoost.cpp */; };
 		F816226D194089A700765768 /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162266194089A700765768 /* LogisticRegression.cpp */; };
 		F816226E194089A700765768 /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162268194089A700765768 /* NaiveBayes.cpp */; };
@@ -87,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F80CCB6B195467090060580E /* DenseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DenseMatrix.cpp; path = Src/Math/DenseMatrix.cpp; sourceTree = "<group>"; };
+		F80CCB6C195467090060580E /* DenseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenseMatrix.h; path = Src/Math/DenseMatrix.h; sourceTree = "<group>"; };
 		F8162264194089A700765768 /* AdaBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AdaBoost.cpp; path = Src/MachineLearning/AdaBoost.cpp; sourceTree = "<group>"; };
 		F8162265194089A700765768 /* AdaBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaBoost.h; path = Src/MachineLearning/AdaBoost.h; sourceTree = "<group>"; };
 		F8162266194089A700765768 /* LogisticRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogisticRegression.cpp; path = Src/MachineLearning/LogisticRegression.cpp; sourceTree = "<group>"; };
@@ -258,6 +261,8 @@
 		F8429F11191F0AE60079D2B3 /* Math */ = {
 			isa = PBXGroup;
 			children = (
+				F80CCB6B195467090060580E /* DenseMatrix.cpp */,
+				F80CCB6C195467090060580E /* DenseMatrix.h */,
 				F8162270194089D000765768 /* BasicFunction.cpp */,
 				F8162271194089D000765768 /* BasicFunction.h */,
 				F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */,
@@ -646,6 +651,7 @@
 				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
 				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
 				F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */,
+				F80CCB6D195467090060580E /* DenseMatrix.cpp in Sources */,
 				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
 				F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */,
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
