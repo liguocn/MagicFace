@@ -75,6 +75,7 @@
 		F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */; };
 		F8B4F709195AD97B00A3423E /* Optimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B4F707195AD97B00A3423E /* Optimization.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
+		F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */; };
 		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
 /* End PBXBuildFile section */
 
@@ -220,6 +221,8 @@
 		F8B4F708195AD97B00A3423E /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Optimization.h; path = Src/Math/Optimization.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
+		F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecisionTree.cpp; path = Src/MachineLearning/DecisionTree.cpp; sourceTree = "<group>"; };
+		F8F658DE19641E3B004D5A36 /* DecisionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecisionTree.h; path = Src/MachineLearning/DecisionTree.h; sourceTree = "<group>"; };
 		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
 		F8FC9CB1192CC41700516071 /* FeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureDetection.h; path = Src/DIP/FeatureDetection.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -340,6 +343,8 @@
 				F8250397194209EA00B583D3 /* LinearDiscriminantAnalysis.h */,
 				F825039919420B3300B583D3 /* KernelFunction.cpp */,
 				F825039A19420B3300B583D3 /* KernelFunction.h */,
+				F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */,
+				F8F658DE19641E3B004D5A36 /* DecisionTree.h */,
 			);
 			name = MachineLearning;
 			sourceTree = "<group>";
@@ -662,6 +667,7 @@
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
 				F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */,
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
+				F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */,
 				F816226D194089A700765768 /* LogisticRegression.cpp in Sources */,
 				F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
