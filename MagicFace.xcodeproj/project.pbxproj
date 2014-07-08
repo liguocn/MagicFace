@@ -75,6 +75,8 @@
 		F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */; };
 		F8B4F709195AD97B00A3423E /* Optimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B4F707195AD97B00A3423E /* Optimization.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
+		F8F06496196BFDB800F091E1 /* RandomMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F06494196BFDB800F091E1 /* RandomMethod.cpp */; };
+		F8F06499196BFDC800F091E1 /* CascadedPoseRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */; };
 		F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */; };
 		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
 /* End PBXBuildFile section */
@@ -221,6 +223,10 @@
 		F8B4F708195AD97B00A3423E /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Optimization.h; path = Src/Math/Optimization.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
+		F8F06494196BFDB800F091E1 /* RandomMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RandomMethod.cpp; path = Src/MachineLearning/RandomMethod.cpp; sourceTree = "<group>"; };
+		F8F06495196BFDB800F091E1 /* RandomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomMethod.h; path = Src/MachineLearning/RandomMethod.h; sourceTree = "<group>"; };
+		F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CascadedPoseRegression.cpp; path = Src/DIP/CascadedPoseRegression.cpp; sourceTree = "<group>"; };
+		F8F06498196BFDC800F091E1 /* CascadedPoseRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CascadedPoseRegression.h; path = Src/DIP/CascadedPoseRegression.h; sourceTree = "<group>"; };
 		F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecisionTree.cpp; path = Src/MachineLearning/DecisionTree.cpp; sourceTree = "<group>"; };
 		F8F658DE19641E3B004D5A36 /* DecisionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecisionTree.h; path = Src/MachineLearning/DecisionTree.h; sourceTree = "<group>"; };
 		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
@@ -290,6 +296,8 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */,
+				F8F06498196BFDC800F091E1 /* CascadedPoseRegression.h */,
 				F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */,
 				F8FC9CB1192CC41700516071 /* FeatureDetection.h */,
 				F8805CBD191F684E00FE9A15 /* Deformation.cpp */,
@@ -309,6 +317,8 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F8F06494196BFDB800F091E1 /* RandomMethod.cpp */,
+				F8F06495196BFDB800F091E1 /* RandomMethod.h */,
 				F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */,
 				F8AA9DD31948716100FE83B9 /* SparseDeepAutoencoder.h */,
 				F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */,
@@ -680,6 +690,7 @@
 				F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */,
 				F816226C194089A700765768 /* AdaBoost.cpp in Sources */,
 				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
+				F8F06499196BFDC800F091E1 /* CascadedPoseRegression.cpp in Sources */,
 				F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
 				F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */,
@@ -698,6 +709,7 @@
 				F825039B19420B3300B583D3 /* KernelFunction.cpp in Sources */,
 				F8AA9DD41948716100FE83B9 /* SparseDeepAutoencoder.cpp in Sources */,
 				F816226E194089A700765768 /* NaiveBayes.cpp in Sources */,
+				F8F06496196BFDB800F091E1 /* RandomMethod.cpp in Sources */,
 				F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */,
 				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
 			);
