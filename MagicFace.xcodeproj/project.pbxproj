@@ -68,6 +68,7 @@
 		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
 		F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D0192A318B00E39243 /* LinearRegression.cpp */; };
 		F89329D6192A31D700E39243 /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D4192A31D700E39243 /* Face2D.cpp */; };
+		F89A2F90196E9C2B009A030D /* FaceFeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */; };
 		F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */; };
 		F8A4E77B194752EF0081C6D4 /* DeepBeliefNets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */; };
 		F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9295193DF65800FCD1F0 /* Classification.cpp */; };
@@ -208,6 +209,8 @@
 		F89329D1192A318B00E39243 /* LinearRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearRegression.h; path = Src/MachineLearning/LinearRegression.h; sourceTree = "<group>"; };
 		F89329D4192A31D700E39243 /* Face2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2D.cpp; path = Src/AppModules/Face2D.cpp; sourceTree = "<group>"; };
 		F89329D5192A31D700E39243 /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = Src/AppModules/Face2D.h; sourceTree = "<group>"; };
+		F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeatureDetection.cpp; path = Src/AppModules/FaceFeatureDetection.cpp; sourceTree = "<group>"; };
+		F89A2F8F196E9C2B009A030D /* FaceFeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeatureDetection.h; path = Src/AppModules/FaceFeatureDetection.h; sourceTree = "<group>"; };
 		F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RestrictedBoltzmannMachines.cpp; path = Src/MachineLearning/RestrictedBoltzmannMachines.cpp; sourceTree = "<group>"; };
 		F8A4E77419471DC40081C6D4 /* RestrictedBoltzmannMachines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestrictedBoltzmannMachines.h; path = Src/MachineLearning/RestrictedBoltzmannMachines.h; sourceTree = "<group>"; };
 		F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeepBeliefNets.cpp; path = Src/MachineLearning/DeepBeliefNets.cpp; sourceTree = "<group>"; };
@@ -530,6 +533,8 @@
 		F89329D3192A31BE00E39243 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
+				F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */,
+				F89A2F8F196E9C2B009A030D /* FaceFeatureDetection.h */,
 				F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */,
 				F8AA9DD61948717000FE83B9 /* SimpleMLObj.h */,
 				F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */,
@@ -676,6 +681,7 @@
 				F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */,
 				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
 				F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */,
+				F89A2F90196E9C2B009A030D /* FaceFeatureDetection.cpp in Sources */,
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
 				F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */,
 				F816226D194089A700765768 /* LogisticRegression.cpp in Sources */,
