@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8089D111984B01500EC1B47 /* FaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */; };
+		F8089D181984B04A00EC1B47 /* ExplicitShapeRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */; };
+		F8089D191984B04A00EC1B47 /* ImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D141984B04A00EC1B47 /* ImageLoader.cpp */; };
+		F8089D1A1984B04A00EC1B47 /* RealTimeFaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */; };
 		F80CCB6D195467090060580E /* DenseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F80CCB6B195467090060580E /* DenseMatrix.cpp */; };
 		F816226C194089A700765768 /* AdaBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162264194089A700765768 /* AdaBoost.cpp */; };
 		F816226D194089A700765768 /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162266194089A700765768 /* LogisticRegression.cpp */; };
@@ -93,6 +97,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceDetection.cpp; path = Src/AppModules/FaceDetection.cpp; sourceTree = "<group>"; };
+		F8089D101984B01500EC1B47 /* FaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceDetection.h; path = Src/AppModules/FaceDetection.h; sourceTree = "<group>"; };
+		F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExplicitShapeRegression.cpp; path = Src/DIP/ExplicitShapeRegression.cpp; sourceTree = "<group>"; };
+		F8089D131984B04A00EC1B47 /* ExplicitShapeRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplicitShapeRegression.h; path = Src/DIP/ExplicitShapeRegression.h; sourceTree = "<group>"; };
+		F8089D141984B04A00EC1B47 /* ImageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoader.cpp; path = Src/DIP/ImageLoader.cpp; sourceTree = "<group>"; };
+		F8089D151984B04A00EC1B47 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoader.h; path = Src/DIP/ImageLoader.h; sourceTree = "<group>"; };
+		F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RealTimeFaceDetection.cpp; path = Src/DIP/RealTimeFaceDetection.cpp; sourceTree = "<group>"; };
+		F8089D171984B04A00EC1B47 /* RealTimeFaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealTimeFaceDetection.h; path = Src/DIP/RealTimeFaceDetection.h; sourceTree = "<group>"; };
 		F80CCB6B195467090060580E /* DenseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DenseMatrix.cpp; path = Src/Math/DenseMatrix.cpp; sourceTree = "<group>"; };
 		F80CCB6C195467090060580E /* DenseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenseMatrix.h; path = Src/Math/DenseMatrix.h; sourceTree = "<group>"; };
 		F8162264194089A700765768 /* AdaBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AdaBoost.cpp; path = Src/MachineLearning/AdaBoost.cpp; sourceTree = "<group>"; };
@@ -299,6 +311,12 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */,
+				F8089D131984B04A00EC1B47 /* ExplicitShapeRegression.h */,
+				F8089D141984B04A00EC1B47 /* ImageLoader.cpp */,
+				F8089D151984B04A00EC1B47 /* ImageLoader.h */,
+				F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */,
+				F8089D171984B04A00EC1B47 /* RealTimeFaceDetection.h */,
 				F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */,
 				F8F06498196BFDC800F091E1 /* CascadedPoseRegression.h */,
 				F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */,
@@ -533,6 +551,8 @@
 		F89329D3192A31BE00E39243 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
+				F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */,
+				F8089D101984B01500EC1B47 /* FaceDetection.h */,
 				F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */,
 				F89A2F8F196E9C2B009A030D /* FaceFeatureDetection.h */,
 				F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */,
@@ -665,6 +685,7 @@
 				F8162272194089D000765768 /* BasicFunction.cpp in Sources */,
 				F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */,
 				F8A4E77B194752EF0081C6D4 /* DeepBeliefNets.cpp in Sources */,
+				F8089D111984B01500EC1B47 /* FaceDetection.cpp in Sources */,
 				F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */,
 				F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */,
 				F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */,
@@ -687,6 +708,7 @@
 				F816226D194089A700765768 /* LogisticRegression.cpp in Sources */,
 				F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
+				F8089D191984B04A00EC1B47 /* ImageLoader.cpp in Sources */,
 				F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */,
 				F8B4F709195AD97B00A3423E /* Optimization.cpp in Sources */,
 				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
@@ -699,6 +721,7 @@
 				F8F06499196BFDC800F091E1 /* CascadedPoseRegression.cpp in Sources */,
 				F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */,
 				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
+				F8089D1A1984B04A00EC1B47 /* RealTimeFaceDetection.cpp in Sources */,
 				F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */,
 				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
 				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
@@ -709,6 +732,7 @@
 				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
 				F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */,
+				F8089D181984B04A00EC1B47 /* ExplicitShapeRegression.cpp in Sources */,
 				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
 				F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */,
