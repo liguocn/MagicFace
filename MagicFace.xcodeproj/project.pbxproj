@@ -7,53 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F8089D111984B01500EC1B47 /* FaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */; };
-		F8089D181984B04A00EC1B47 /* ExplicitShapeRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */; };
-		F8089D191984B04A00EC1B47 /* ImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D141984B04A00EC1B47 /* ImageLoader.cpp */; };
-		F8089D1A1984B04A00EC1B47 /* RealTimeFaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */; };
-		F80CCB6D195467090060580E /* DenseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F80CCB6B195467090060580E /* DenseMatrix.cpp */; };
-		F816226C194089A700765768 /* AdaBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162264194089A700765768 /* AdaBoost.cpp */; };
-		F816226D194089A700765768 /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162266194089A700765768 /* LogisticRegression.cpp */; };
-		F816226E194089A700765768 /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162268194089A700765768 /* NaiveBayes.cpp */; };
-		F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F816226A194089A700765768 /* SupportVectorMachine.cpp */; };
-		F8162272194089D000765768 /* BasicFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8162270194089D000765768 /* BasicFunction.cpp */; };
-		F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82503931941E92600B583D3 /* NeuralNetworks.cpp */; };
-		F8250398194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8250396194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp */; };
-		F825039B19420B3300B583D3 /* KernelFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F825039919420B3300B583D3 /* KernelFunction.cpp */; };
-		F82CA2F91942C192004F6D10 /* HiddenMarkovModels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */; };
-		F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F15191F0B410079D2B3 /* LogSystem.cpp */; };
-		F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */; };
-		F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F3F191F0BEC0079D2B3 /* graph.cpp */; };
-		F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = F8429F41191F0BEC0079D2B3 /* instances.inc */; };
-		F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8429F42191F0BEC0079D2B3 /* maxflow.cpp */; };
-		F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = F8429F43191F0BEC0079D2B3 /* README.TXT */; };
-		F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541D191F49FF00784E1D /* flann_cpp.cpp */; };
-		F8475422191F49FF00784E1D /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F847541E191F49FF00784E1D /* flann.cpp */; };
-		F86A9C18193C622400CE9E12 /* KMeansCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */; };
-		F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */; };
-		F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040DE1931695A00F72A18 /* Face2DObj.cpp */; };
-		F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */; };
-		F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3C192CEDA60008AD0E /* MagicObject.cpp */; };
-		F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */; };
-		F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */; };
-		F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */; };
-		F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */; };
-		F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CA9191F678100FE9A15 /* HomoVector4.cpp */; };
-		F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CAB191F678100FE9A15 /* Vector2.cpp */; };
-		F8805CB3191F678100FE9A15 /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CAD191F678100FE9A15 /* Vector3.cpp */; };
-		F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB4191F680B00FE9A15 /* Clustering.cpp */; };
-		F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */; };
-		F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */; };
-		F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CBD191F684E00FE9A15 /* Deformation.cpp */; };
-		F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CBF191F684E00FE9A15 /* Retargetting.cpp */; };
-		F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CC1191F684E00FE9A15 /* Saliency.cpp */; };
-		F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8805CC3191F684E00FE9A15 /* Segmentation.cpp */; };
-		F8805CCF191F68A300FE9A15 /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */; };
-		F8805CD0191F68A300FE9A15 /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */; };
-		F8805CD1191F68A300FE9A15 /* libopencv_flann.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */; };
-		F8805CD2191F68A300FE9A15 /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */; };
-		F8805CD3191F68A300FE9A15 /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */; };
-		F8805CD4191F68A300FE9A15 /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */; };
 		F88401D11920F2020022FEEE /* AppBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401CE1920F2020022FEEE /* AppBase.m */; };
 		F88401D21920F2020022FEEE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401D01920F2020022FEEE /* AppManager.m */; };
 		F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F88401D51920F2C90022FEEE /* Face2DApp.mm */; };
@@ -70,20 +23,66 @@
 		F891E15B191E703900FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E163191E703900FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E161191E703900FE7290 /* InfoPlist.strings */; };
 		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
-		F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D0192A318B00E39243 /* LinearRegression.cpp */; };
-		F89329D6192A31D700E39243 /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89329D4192A31D700E39243 /* Face2D.cpp */; };
-		F89A2F90196E9C2B009A030D /* FaceFeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */; };
-		F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */; };
-		F8A4E77B194752EF0081C6D4 /* DeepBeliefNets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */; };
-		F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9295193DF65800FCD1F0 /* Classification.cpp */; };
-		F8AA9DD41948716100FE83B9 /* SparseDeepAutoencoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */; };
-		F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */; };
-		F8B4F709195AD97B00A3423E /* Optimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8B4F707195AD97B00A3423E /* Optimization.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
-		F8F06496196BFDB800F091E1 /* RandomMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F06494196BFDB800F091E1 /* RandomMethod.cpp */; };
-		F8F06499196BFDC800F091E1 /* CascadedPoseRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */; };
-		F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */; };
-		F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */; };
+		F8E52C08199F6ECD0011D80B /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C04199F6ECD0011D80B /* flann_cpp.cpp */; };
+		F8E52C09199F6ECD0011D80B /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C05199F6ECD0011D80B /* flann.cpp */; };
+		F8E52C0F199F6F6B0011D80B /* graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C0B199F6F6B0011D80B /* graph.cpp */; };
+		F8E52C10199F6F6B0011D80B /* instances.inc in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C0D199F6F6B0011D80B /* instances.inc */; };
+		F8E52C11199F6F6B0011D80B /* maxflow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C0E199F6F6B0011D80B /* maxflow.cpp */; };
+		F8E52C15199F6F800011D80B /* LogSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C13199F6F800011D80B /* LogSystem.cpp */; };
+		F8E52C28199F6F980011D80B /* CorrelationAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C16199F6F980011D80B /* CorrelationAnalysis.cpp */; };
+		F8E52C29199F6F980011D80B /* Optimization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C18199F6F980011D80B /* Optimization.cpp */; };
+		F8E52C2A199F6F980011D80B /* DenseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C1A199F6F980011D80B /* DenseMatrix.cpp */; };
+		F8E52C2B199F6F980011D80B /* BasicFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C1C199F6F980011D80B /* BasicFunction.cpp */; };
+		F8E52C2C199F6F980011D80B /* HomoMatrix3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C1E199F6F980011D80B /* HomoMatrix3.cpp */; };
+		F8E52C2D199F6F980011D80B /* HomoMatrix4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C20199F6F980011D80B /* HomoMatrix4.cpp */; };
+		F8E52C2E199F6F980011D80B /* HomoVector4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C22199F6F980011D80B /* HomoVector4.cpp */; };
+		F8E52C2F199F6F980011D80B /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C24199F6F980011D80B /* Vector2.cpp */; };
+		F8E52C30199F6F980011D80B /* Vector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C26199F6F980011D80B /* Vector3.cpp */; };
+		F8E52C45199F6FB60011D80B /* RealTimeFaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C31199F6FB60011D80B /* RealTimeFaceDetection.cpp */; };
+		F8E52C46199F6FB60011D80B /* ImageLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C33199F6FB60011D80B /* ImageLoader.cpp */; };
+		F8E52C47199F6FB60011D80B /* ExplicitShapeRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C35199F6FB60011D80B /* ExplicitShapeRegression.cpp */; };
+		F8E52C48199F6FB60011D80B /* CascadedPoseRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C36199F6FB60011D80B /* CascadedPoseRegression.cpp */; };
+		F8E52C49199F6FB60011D80B /* Classification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C39199F6FB60011D80B /* Classification.cpp */; };
+		F8E52C4A199F6FB60011D80B /* Segmentation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C3B199F6FB60011D80B /* Segmentation.cpp */; };
+		F8E52C4B199F6FB60011D80B /* Deformation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C3C199F6FB60011D80B /* Deformation.cpp */; };
+		F8E52C4C199F6FB60011D80B /* FeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C3D199F6FB60011D80B /* FeatureDetection.cpp */; };
+		F8E52C4D199F6FB60011D80B /* Saliency.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C3F199F6FB60011D80B /* Saliency.cpp */; };
+		F8E52C4E199F6FB60011D80B /* Retargetting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C41199F6FB60011D80B /* Retargetting.cpp */; };
+		F8E52C75199F6FD60011D80B /* NeuralNetworks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C4F199F6FD60011D80B /* NeuralNetworks.cpp */; };
+		F8E52C76199F6FD60011D80B /* AdaBoost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C51199F6FD60011D80B /* AdaBoost.cpp */; };
+		F8E52C77199F6FD60011D80B /* RandomMethod.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C53199F6FD60011D80B /* RandomMethod.cpp */; };
+		F8E52C78199F6FD60011D80B /* DecisionTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C55199F6FD60011D80B /* DecisionTree.cpp */; };
+		F8E52C79199F6FD60011D80B /* LogisticRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C57199F6FD60011D80B /* LogisticRegression.cpp */; };
+		F8E52C7A199F6FD60011D80B /* LinearRegression.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C58199F6FD60011D80B /* LinearRegression.cpp */; };
+		F8E52C7B199F6FD60011D80B /* Clustering.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C5B199F6FD60011D80B /* Clustering.cpp */; };
+		F8E52C7C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C5C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp */; };
+		F8E52C7D199F6FD60011D80B /* SupportVectorMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C5D199F6FD60011D80B /* SupportVectorMachine.cpp */; };
+		F8E52C7E199F6FD60011D80B /* KernelFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C5E199F6FD60011D80B /* KernelFunction.cpp */; };
+		F8E52C7F199F6FD60011D80B /* NaiveBayes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C61199F6FD60011D80B /* NaiveBayes.cpp */; };
+		F8E52C80199F6FD60011D80B /* SparseDeepAutoencoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C64199F6FD60011D80B /* SparseDeepAutoencoder.cpp */; };
+		F8E52C81199F6FD60011D80B /* DeepBeliefNets.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C66199F6FD60011D80B /* DeepBeliefNets.cpp */; };
+		F8E52C82199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C68199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp */; };
+		F8E52C83199F6FD60011D80B /* HiddenMarkovModels.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C6A199F6FD60011D80B /* HiddenMarkovModels.cpp */; };
+		F8E52C84199F6FD60011D80B /* KMeansCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C6D199F6FD60011D80B /* KMeansCoding.cpp */; };
+		F8E52C85199F6FD60011D80B /* SparseCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C6F199F6FD60011D80B /* SparseCoding.cpp */; };
+		F8E52C86199F6FD60011D80B /* PrincipalComponentAnalysis.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C71199F6FD60011D80B /* PrincipalComponentAnalysis.cpp */; };
+		F8E52C87199F6FD60011D80B /* GaussianMixtureModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C73199F6FD60011D80B /* GaussianMixtureModel.cpp */; };
+		F8E52C9A199F6FF10011D80B /* FaceDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C88199F6FF00011D80B /* FaceDetection.cpp */; };
+		F8E52C9B199F6FF10011D80B /* FaceFeatureDetection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C8A199F6FF10011D80B /* FaceFeatureDetection.cpp */; };
+		F8E52C9C199F6FF10011D80B /* Face2DObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C8C199F6FF10011D80B /* Face2DObj.cpp */; };
+		F8E52C9D199F6FF10011D80B /* FaceFeaturePoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C8E199F6FF10011D80B /* FaceFeaturePoints.cpp */; };
+		F8E52C9E199F6FF10011D80B /* SimpleMLObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C90199F6FF10011D80B /* SimpleMLObj.cpp */; };
+		F8E52C9F199F6FF10011D80B /* Face2D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C92199F6FF10011D80B /* Face2D.cpp */; };
+		F8E52CA0199F6FF10011D80B /* BasicImageProcess.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C93199F6FF10011D80B /* BasicImageProcess.cpp */; };
+		F8E52CA1199F6FF10011D80B /* MagicObjectManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C97199F6FF10011D80B /* MagicObjectManager.cpp */; };
+		F8E52CA2199F6FF10011D80B /* MagicObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C99199F6FF10011D80B /* MagicObject.cpp */; };
+		F8E52CA9199F72320011D80B /* libopencv_calib3d.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA3199F72320011D80B /* libopencv_calib3d.dylib */; };
+		F8E52CAA199F72320011D80B /* libopencv_highgui.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA4199F72320011D80B /* libopencv_highgui.dylib */; };
+		F8E52CAB199F72320011D80B /* libopencv_video.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA5199F72320011D80B /* libopencv_video.dylib */; };
+		F8E52CAC199F72320011D80B /* libopencv_imgproc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA6199F72320011D80B /* libopencv_imgproc.dylib */; };
+		F8E52CAD199F72320011D80B /* libopencv_flann.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA7199F72320011D80B /* libopencv_flann.dylib */; };
+		F8E52CAE199F72320011D80B /* libopencv_core.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F8E52CA8199F72320011D80B /* libopencv_core.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,97 +96,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceDetection.cpp; path = Src/AppModules/FaceDetection.cpp; sourceTree = "<group>"; };
-		F8089D101984B01500EC1B47 /* FaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceDetection.h; path = Src/AppModules/FaceDetection.h; sourceTree = "<group>"; };
-		F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExplicitShapeRegression.cpp; path = Src/DIP/ExplicitShapeRegression.cpp; sourceTree = "<group>"; };
-		F8089D131984B04A00EC1B47 /* ExplicitShapeRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplicitShapeRegression.h; path = Src/DIP/ExplicitShapeRegression.h; sourceTree = "<group>"; };
-		F8089D141984B04A00EC1B47 /* ImageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoader.cpp; path = Src/DIP/ImageLoader.cpp; sourceTree = "<group>"; };
-		F8089D151984B04A00EC1B47 /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoader.h; path = Src/DIP/ImageLoader.h; sourceTree = "<group>"; };
-		F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RealTimeFaceDetection.cpp; path = Src/DIP/RealTimeFaceDetection.cpp; sourceTree = "<group>"; };
-		F8089D171984B04A00EC1B47 /* RealTimeFaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealTimeFaceDetection.h; path = Src/DIP/RealTimeFaceDetection.h; sourceTree = "<group>"; };
-		F80CCB6B195467090060580E /* DenseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DenseMatrix.cpp; path = Src/Math/DenseMatrix.cpp; sourceTree = "<group>"; };
-		F80CCB6C195467090060580E /* DenseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenseMatrix.h; path = Src/Math/DenseMatrix.h; sourceTree = "<group>"; };
-		F8162264194089A700765768 /* AdaBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AdaBoost.cpp; path = Src/MachineLearning/AdaBoost.cpp; sourceTree = "<group>"; };
-		F8162265194089A700765768 /* AdaBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaBoost.h; path = Src/MachineLearning/AdaBoost.h; sourceTree = "<group>"; };
-		F8162266194089A700765768 /* LogisticRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogisticRegression.cpp; path = Src/MachineLearning/LogisticRegression.cpp; sourceTree = "<group>"; };
-		F8162267194089A700765768 /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogisticRegression.h; path = Src/MachineLearning/LogisticRegression.h; sourceTree = "<group>"; };
-		F8162268194089A700765768 /* NaiveBayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NaiveBayes.cpp; path = Src/MachineLearning/NaiveBayes.cpp; sourceTree = "<group>"; };
-		F8162269194089A700765768 /* NaiveBayes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaiveBayes.h; path = Src/MachineLearning/NaiveBayes.h; sourceTree = "<group>"; };
-		F816226A194089A700765768 /* SupportVectorMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SupportVectorMachine.cpp; path = Src/MachineLearning/SupportVectorMachine.cpp; sourceTree = "<group>"; };
-		F816226B194089A700765768 /* SupportVectorMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportVectorMachine.h; path = Src/MachineLearning/SupportVectorMachine.h; sourceTree = "<group>"; };
-		F8162270194089D000765768 /* BasicFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicFunction.cpp; path = Src/Math/BasicFunction.cpp; sourceTree = "<group>"; };
-		F8162271194089D000765768 /* BasicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicFunction.h; path = Src/Math/BasicFunction.h; sourceTree = "<group>"; };
-		F82503931941E92600B583D3 /* NeuralNetworks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralNetworks.cpp; path = Src/MachineLearning/NeuralNetworks.cpp; sourceTree = "<group>"; };
-		F82503941941E92600B583D3 /* NeuralNetworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralNetworks.h; path = Src/MachineLearning/NeuralNetworks.h; sourceTree = "<group>"; };
-		F8250396194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearDiscriminantAnalysis.cpp; path = Src/MachineLearning/LinearDiscriminantAnalysis.cpp; sourceTree = "<group>"; };
-		F8250397194209EA00B583D3 /* LinearDiscriminantAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearDiscriminantAnalysis.h; path = Src/MachineLearning/LinearDiscriminantAnalysis.h; sourceTree = "<group>"; };
-		F825039919420B3300B583D3 /* KernelFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KernelFunction.cpp; path = Src/MachineLearning/KernelFunction.cpp; sourceTree = "<group>"; };
-		F825039A19420B3300B583D3 /* KernelFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KernelFunction.h; path = Src/MachineLearning/KernelFunction.h; sourceTree = "<group>"; };
-		F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HiddenMarkovModels.cpp; path = Src/MachineLearning/HiddenMarkovModels.cpp; sourceTree = "<group>"; };
-		F82CA2F81942C192004F6D10 /* HiddenMarkovModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiddenMarkovModels.h; path = Src/MachineLearning/HiddenMarkovModels.h; sourceTree = "<group>"; };
-		F8429F15191F0B410079D2B3 /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
-		F8429F16191F0B410079D2B3 /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = Src/Tool/LogSystem.h; sourceTree = "<group>"; };
-		F8429F3D191F0BEC0079D2B3 /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = Src/Dependence/GraphCut/block.h; sourceTree = "<group>"; };
-		F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CHANGES.TXT; path = Src/Dependence/GraphCut/CHANGES.TXT; sourceTree = "<group>"; };
-		F8429F3F191F0BEC0079D2B3 /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graph.cpp; path = Src/Dependence/GraphCut/graph.cpp; sourceTree = "<group>"; };
-		F8429F40191F0BEC0079D2B3 /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = Src/Dependence/GraphCut/graph.h; sourceTree = "<group>"; };
-		F8429F41191F0BEC0079D2B3 /* instances.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = instances.inc; path = Src/Dependence/GraphCut/instances.inc; sourceTree = "<group>"; };
-		F8429F42191F0BEC0079D2B3 /* maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maxflow.cpp; path = Src/Dependence/GraphCut/maxflow.cpp; sourceTree = "<group>"; };
-		F8429F43191F0BEC0079D2B3 /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.TXT; path = Src/Dependence/GraphCut/README.TXT; sourceTree = "<group>"; };
-		F847541D191F49FF00784E1D /* flann_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann_cpp.cpp; path = Src/Dependence/Flann1.8.4/flann/flann_cpp.cpp; sourceTree = "<group>"; };
-		F847541E191F49FF00784E1D /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann.cpp; path = Src/Dependence/Flann1.8.4/flann/flann.cpp; sourceTree = "<group>"; };
-		F847541F191F49FF00784E1D /* flann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flann.h; path = Src/Dependence/Flann1.8.4/flann/flann.h; sourceTree = "<group>"; };
-		F8475420191F49FF00784E1D /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = Src/Dependence/Flann1.8.4/flann/flann.hpp; sourceTree = "<group>"; };
-		F8475423191F4FF600784E1D /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_calib3d.dylib; sourceTree = "<group>"; };
-		F8475424191F4FF600784E1D /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_core.dylib; sourceTree = "<group>"; };
-		F8475425191F4FF600784E1D /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_flann.dylib; sourceTree = "<group>"; };
-		F8475426191F4FF600784E1D /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_highgui.dylib; sourceTree = "<group>"; };
-		F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_imgproc.dylib; sourceTree = "<group>"; };
-		F8475428191F4FF600784E1D /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Debug/libopencv_video.dylib; sourceTree = "<group>"; };
-		F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KMeansCoding.cpp; path = Src/MachineLearning/KMeansCoding.cpp; sourceTree = "<group>"; };
-		F86A9C17193C622400CE9E12 /* KMeansCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMeansCoding.h; path = Src/MachineLearning/KMeansCoding.h; sourceTree = "<group>"; };
-		F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicImageProcess.cpp; path = Src/AppModules/BasicImageProcess.cpp; sourceTree = "<group>"; };
-		F87040DD1931695A00F72A18 /* BasicImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicImageProcess.h; path = Src/AppModules/BasicImageProcess.h; sourceTree = "<group>"; };
-		F87040DE1931695A00F72A18 /* Face2DObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2DObj.cpp; path = Src/AppModules/Face2DObj.cpp; sourceTree = "<group>"; };
-		F87040DF1931695A00F72A18 /* Face2DObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DObj.h; path = Src/AppModules/Face2DObj.h; sourceTree = "<group>"; };
-		F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeaturePoints.cpp; path = Src/AppModules/FaceFeaturePoints.cpp; sourceTree = "<group>"; };
-		F87040E11931695A00F72A18 /* FaceFeaturePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeaturePoints.h; path = Src/AppModules/FaceFeaturePoints.h; sourceTree = "<group>"; };
-		F870AC3C192CEDA60008AD0E /* MagicObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObject.cpp; path = Src/AppModules/MagicObject.cpp; sourceTree = "<group>"; };
-		F870AC3D192CEDA60008AD0E /* MagicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObject.h; path = Src/AppModules/MagicObject.h; sourceTree = "<group>"; };
-		F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObjectManager.cpp; path = Src/AppModules/MagicObjectManager.cpp; sourceTree = "<group>"; };
-		F870AC40192CEEE50008AD0E /* MagicObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObjectManager.h; path = Src/AppModules/MagicObjectManager.h; sourceTree = "<group>"; };
-		F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseCoding.cpp; path = Src/MachineLearning/SparseCoding.cpp; sourceTree = "<group>"; };
-		F87A0E73193B5D0B00790C1D /* SparseCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseCoding.h; path = Src/MachineLearning/SparseCoding.h; sourceTree = "<group>"; };
-		F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix3.cpp; path = Src/Math/HomoMatrix3.cpp; sourceTree = "<group>"; };
-		F8805CA6191F678100FE9A15 /* HomoMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix3.h; path = Src/Math/HomoMatrix3.h; sourceTree = "<group>"; };
-		F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix4.cpp; path = Src/Math/HomoMatrix4.cpp; sourceTree = "<group>"; };
-		F8805CA8191F678100FE9A15 /* HomoMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix4.h; path = Src/Math/HomoMatrix4.h; sourceTree = "<group>"; };
-		F8805CA9191F678100FE9A15 /* HomoVector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoVector4.cpp; path = Src/Math/HomoVector4.cpp; sourceTree = "<group>"; };
-		F8805CAA191F678100FE9A15 /* HomoVector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoVector4.h; path = Src/Math/HomoVector4.h; sourceTree = "<group>"; };
-		F8805CAB191F678100FE9A15 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = Src/Math/Vector2.cpp; sourceTree = "<group>"; };
-		F8805CAC191F678100FE9A15 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = Src/Math/Vector2.h; sourceTree = "<group>"; };
-		F8805CAD191F678100FE9A15 /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = Src/Math/Vector3.cpp; sourceTree = "<group>"; };
-		F8805CAE191F678100FE9A15 /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = Src/Math/Vector3.h; sourceTree = "<group>"; };
-		F8805CB4191F680B00FE9A15 /* Clustering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Clustering.cpp; path = Src/MachineLearning/Clustering.cpp; sourceTree = "<group>"; };
-		F8805CB5191F680B00FE9A15 /* Clustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clustering.h; path = Src/MachineLearning/Clustering.h; sourceTree = "<group>"; };
-		F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaussianMixtureModel.cpp; path = Src/MachineLearning/GaussianMixtureModel.cpp; sourceTree = "<group>"; };
-		F8805CB7191F680B00FE9A15 /* GaussianMixtureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaussianMixtureModel.h; path = Src/MachineLearning/GaussianMixtureModel.h; sourceTree = "<group>"; };
-		F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrincipalComponentAnalysis.cpp; path = Src/MachineLearning/PrincipalComponentAnalysis.cpp; sourceTree = "<group>"; };
-		F8805CB9191F680B00FE9A15 /* PrincipalComponentAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrincipalComponentAnalysis.h; path = Src/MachineLearning/PrincipalComponentAnalysis.h; sourceTree = "<group>"; };
-		F8805CBD191F684E00FE9A15 /* Deformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Deformation.cpp; path = Src/DIP/Deformation.cpp; sourceTree = "<group>"; };
-		F8805CBE191F684E00FE9A15 /* Deformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deformation.h; path = Src/DIP/Deformation.h; sourceTree = "<group>"; };
-		F8805CBF191F684E00FE9A15 /* Retargetting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Retargetting.cpp; path = Src/DIP/Retargetting.cpp; sourceTree = "<group>"; };
-		F8805CC0191F684E00FE9A15 /* Retargetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Retargetting.h; path = Src/DIP/Retargetting.h; sourceTree = "<group>"; };
-		F8805CC1191F684E00FE9A15 /* Saliency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Saliency.cpp; path = Src/DIP/Saliency.cpp; sourceTree = "<group>"; };
-		F8805CC2191F684E00FE9A15 /* Saliency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Saliency.h; path = Src/DIP/Saliency.h; sourceTree = "<group>"; };
-		F8805CC3191F684E00FE9A15 /* Segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Segmentation.cpp; path = Src/DIP/Segmentation.cpp; sourceTree = "<group>"; };
-		F8805CC4191F684E00FE9A15 /* Segmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Segmentation.h; path = Src/DIP/Segmentation.h; sourceTree = "<group>"; };
-		F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_calib3d.dylib; sourceTree = "<group>"; };
-		F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_core.dylib; sourceTree = "<group>"; };
-		F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_flann.dylib; sourceTree = "<group>"; };
-		F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_highgui.dylib; sourceTree = "<group>"; };
-		F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_imgproc.dylib; sourceTree = "<group>"; };
-		F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = MagicFace/Src/Dependence/OpenCV/lib/Release/libopencv_video.dylib; sourceTree = "<group>"; };
 		F88401CD1920F2020022FEEE /* AppBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppBase.h; path = Src/App/Common/AppBase.h; sourceTree = "<group>"; };
 		F88401CE1920F2020022FEEE /* AppBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppBase.m; path = Src/App/Common/AppBase.m; sourceTree = "<group>"; };
 		F88401CF1920F2020022FEEE /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = Src/App/Common/AppManager.h; sourceTree = "<group>"; };
@@ -217,35 +125,120 @@
 		F891E160191E703900FE7290 /* MagicFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicFaceTests-Info.plist"; sourceTree = "<group>"; };
 		F891E162191E703900FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F891E164191E703900FE7290 /* MagicFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFaceTests.m; sourceTree = "<group>"; };
-		F89329D0192A318B00E39243 /* LinearRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearRegression.cpp; path = Src/MachineLearning/LinearRegression.cpp; sourceTree = "<group>"; };
-		F89329D1192A318B00E39243 /* LinearRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearRegression.h; path = Src/MachineLearning/LinearRegression.h; sourceTree = "<group>"; };
-		F89329D4192A31D700E39243 /* Face2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2D.cpp; path = Src/AppModules/Face2D.cpp; sourceTree = "<group>"; };
-		F89329D5192A31D700E39243 /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = Src/AppModules/Face2D.h; sourceTree = "<group>"; };
-		F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeatureDetection.cpp; path = Src/AppModules/FaceFeatureDetection.cpp; sourceTree = "<group>"; };
-		F89A2F8F196E9C2B009A030D /* FaceFeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeatureDetection.h; path = Src/AppModules/FaceFeatureDetection.h; sourceTree = "<group>"; };
-		F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RestrictedBoltzmannMachines.cpp; path = Src/MachineLearning/RestrictedBoltzmannMachines.cpp; sourceTree = "<group>"; };
-		F8A4E77419471DC40081C6D4 /* RestrictedBoltzmannMachines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestrictedBoltzmannMachines.h; path = Src/MachineLearning/RestrictedBoltzmannMachines.h; sourceTree = "<group>"; };
-		F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeepBeliefNets.cpp; path = Src/MachineLearning/DeepBeliefNets.cpp; sourceTree = "<group>"; };
-		F8A4E77A194752EF0081C6D4 /* DeepBeliefNets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeepBeliefNets.h; path = Src/MachineLearning/DeepBeliefNets.h; sourceTree = "<group>"; };
-		F8AA9295193DF65800FCD1F0 /* Classification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Classification.cpp; path = Src/DIP/Classification.cpp; sourceTree = "<group>"; };
-		F8AA9296193DF65800FCD1F0 /* Classification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Classification.h; path = Src/DIP/Classification.h; sourceTree = "<group>"; };
-		F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseDeepAutoencoder.cpp; path = Src/MachineLearning/SparseDeepAutoencoder.cpp; sourceTree = "<group>"; };
-		F8AA9DD31948716100FE83B9 /* SparseDeepAutoencoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseDeepAutoencoder.h; path = Src/MachineLearning/SparseDeepAutoencoder.h; sourceTree = "<group>"; };
-		F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleMLObj.cpp; path = Src/AppModules/SimpleMLObj.cpp; sourceTree = "<group>"; };
-		F8AA9DD61948717000FE83B9 /* SimpleMLObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleMLObj.h; path = Src/AppModules/SimpleMLObj.h; sourceTree = "<group>"; };
-		F8AA9DD81948718600FE83B9 /* ErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorCodes.h; path = Src/Tool/ErrorCodes.h; sourceTree = "<group>"; };
-		F8B4F707195AD97B00A3423E /* Optimization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Optimization.cpp; path = Src/Math/Optimization.cpp; sourceTree = "<group>"; };
-		F8B4F708195AD97B00A3423E /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Optimization.h; path = Src/Math/Optimization.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
-		F8F06494196BFDB800F091E1 /* RandomMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RandomMethod.cpp; path = Src/MachineLearning/RandomMethod.cpp; sourceTree = "<group>"; };
-		F8F06495196BFDB800F091E1 /* RandomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomMethod.h; path = Src/MachineLearning/RandomMethod.h; sourceTree = "<group>"; };
-		F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CascadedPoseRegression.cpp; path = Src/DIP/CascadedPoseRegression.cpp; sourceTree = "<group>"; };
-		F8F06498196BFDC800F091E1 /* CascadedPoseRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CascadedPoseRegression.h; path = Src/DIP/CascadedPoseRegression.h; sourceTree = "<group>"; };
-		F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecisionTree.cpp; path = Src/MachineLearning/DecisionTree.cpp; sourceTree = "<group>"; };
-		F8F658DE19641E3B004D5A36 /* DecisionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecisionTree.h; path = Src/MachineLearning/DecisionTree.h; sourceTree = "<group>"; };
-		F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
-		F8FC9CB1192CC41700516071 /* FeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureDetection.h; path = Src/DIP/FeatureDetection.h; sourceTree = "<group>"; };
+		F8E52C04199F6ECD0011D80B /* flann_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann_cpp.cpp; path = ../../MagicLib/Dependencies/FlannSrc/flann/flann_cpp.cpp; sourceTree = "<group>"; };
+		F8E52C05199F6ECD0011D80B /* flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann.cpp; path = ../../MagicLib/Dependencies/FlannSrc/flann/flann.cpp; sourceTree = "<group>"; };
+		F8E52C06199F6ECD0011D80B /* flann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = flann.h; path = ../../MagicLib/Dependencies/FlannSrc/flann/flann.h; sourceTree = "<group>"; };
+		F8E52C07199F6ECD0011D80B /* flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = flann.hpp; path = ../../MagicLib/Dependencies/FlannSrc/flann/flann.hpp; sourceTree = "<group>"; };
+		F8E52C0A199F6F6B0011D80B /* block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = block.h; path = ../../MagicLib/Dependencies/GraphCut/block.h; sourceTree = "<group>"; };
+		F8E52C0B199F6F6B0011D80B /* graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = graph.cpp; path = ../../MagicLib/Dependencies/GraphCut/graph.cpp; sourceTree = "<group>"; };
+		F8E52C0C199F6F6B0011D80B /* graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = graph.h; path = ../../MagicLib/Dependencies/GraphCut/graph.h; sourceTree = "<group>"; };
+		F8E52C0D199F6F6B0011D80B /* instances.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; name = instances.inc; path = ../../MagicLib/Dependencies/GraphCut/instances.inc; sourceTree = "<group>"; };
+		F8E52C0E199F6F6B0011D80B /* maxflow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = maxflow.cpp; path = ../../MagicLib/Dependencies/GraphCut/maxflow.cpp; sourceTree = "<group>"; };
+		F8E52C12199F6F800011D80B /* ErrorCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorCodes.h; path = ../../MagicLib/Src/Tool/ErrorCodes.h; sourceTree = "<group>"; };
+		F8E52C13199F6F800011D80B /* LogSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogSystem.cpp; path = ../../MagicLib/Src/Tool/LogSystem.cpp; sourceTree = "<group>"; };
+		F8E52C14199F6F800011D80B /* LogSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogSystem.h; path = ../../MagicLib/Src/Tool/LogSystem.h; sourceTree = "<group>"; };
+		F8E52C16199F6F980011D80B /* CorrelationAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CorrelationAnalysis.cpp; path = ../../MagicLib/Src/Math/CorrelationAnalysis.cpp; sourceTree = "<group>"; };
+		F8E52C17199F6F980011D80B /* CorrelationAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CorrelationAnalysis.h; path = ../../MagicLib/Src/Math/CorrelationAnalysis.h; sourceTree = "<group>"; };
+		F8E52C18199F6F980011D80B /* Optimization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Optimization.cpp; path = ../../MagicLib/Src/Math/Optimization.cpp; sourceTree = "<group>"; };
+		F8E52C19199F6F980011D80B /* Optimization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Optimization.h; path = ../../MagicLib/Src/Math/Optimization.h; sourceTree = "<group>"; };
+		F8E52C1A199F6F980011D80B /* DenseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DenseMatrix.cpp; path = ../../MagicLib/Src/Math/DenseMatrix.cpp; sourceTree = "<group>"; };
+		F8E52C1B199F6F980011D80B /* DenseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DenseMatrix.h; path = ../../MagicLib/Src/Math/DenseMatrix.h; sourceTree = "<group>"; };
+		F8E52C1C199F6F980011D80B /* BasicFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicFunction.cpp; path = ../../MagicLib/Src/Math/BasicFunction.cpp; sourceTree = "<group>"; };
+		F8E52C1D199F6F980011D80B /* BasicFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicFunction.h; path = ../../MagicLib/Src/Math/BasicFunction.h; sourceTree = "<group>"; };
+		F8E52C1E199F6F980011D80B /* HomoMatrix3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix3.cpp; path = ../../MagicLib/Src/Math/HomoMatrix3.cpp; sourceTree = "<group>"; };
+		F8E52C1F199F6F980011D80B /* HomoMatrix3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix3.h; path = ../../MagicLib/Src/Math/HomoMatrix3.h; sourceTree = "<group>"; };
+		F8E52C20199F6F980011D80B /* HomoMatrix4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoMatrix4.cpp; path = ../../MagicLib/Src/Math/HomoMatrix4.cpp; sourceTree = "<group>"; };
+		F8E52C21199F6F980011D80B /* HomoMatrix4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoMatrix4.h; path = ../../MagicLib/Src/Math/HomoMatrix4.h; sourceTree = "<group>"; };
+		F8E52C22199F6F980011D80B /* HomoVector4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HomoVector4.cpp; path = ../../MagicLib/Src/Math/HomoVector4.cpp; sourceTree = "<group>"; };
+		F8E52C23199F6F980011D80B /* HomoVector4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomoVector4.h; path = ../../MagicLib/Src/Math/HomoVector4.h; sourceTree = "<group>"; };
+		F8E52C24199F6F980011D80B /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = ../../MagicLib/Src/Math/Vector2.cpp; sourceTree = "<group>"; };
+		F8E52C25199F6F980011D80B /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector2.h; path = ../../MagicLib/Src/Math/Vector2.h; sourceTree = "<group>"; };
+		F8E52C26199F6F980011D80B /* Vector3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector3.cpp; path = ../../MagicLib/Src/Math/Vector3.cpp; sourceTree = "<group>"; };
+		F8E52C27199F6F980011D80B /* Vector3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vector3.h; path = ../../MagicLib/Src/Math/Vector3.h; sourceTree = "<group>"; };
+		F8E52C31199F6FB60011D80B /* RealTimeFaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RealTimeFaceDetection.cpp; path = ../../MagicLib/Src/DIP/RealTimeFaceDetection.cpp; sourceTree = "<group>"; };
+		F8E52C32199F6FB60011D80B /* RealTimeFaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RealTimeFaceDetection.h; path = ../../MagicLib/Src/DIP/RealTimeFaceDetection.h; sourceTree = "<group>"; };
+		F8E52C33199F6FB60011D80B /* ImageLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageLoader.cpp; path = ../../MagicLib/Src/DIP/ImageLoader.cpp; sourceTree = "<group>"; };
+		F8E52C34199F6FB60011D80B /* ImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageLoader.h; path = ../../MagicLib/Src/DIP/ImageLoader.h; sourceTree = "<group>"; };
+		F8E52C35199F6FB60011D80B /* ExplicitShapeRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ExplicitShapeRegression.cpp; path = ../../MagicLib/Src/DIP/ExplicitShapeRegression.cpp; sourceTree = "<group>"; };
+		F8E52C36199F6FB60011D80B /* CascadedPoseRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CascadedPoseRegression.cpp; path = ../../MagicLib/Src/DIP/CascadedPoseRegression.cpp; sourceTree = "<group>"; };
+		F8E52C37199F6FB60011D80B /* CascadedPoseRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CascadedPoseRegression.h; path = ../../MagicLib/Src/DIP/CascadedPoseRegression.h; sourceTree = "<group>"; };
+		F8E52C38199F6FB60011D80B /* ExplicitShapeRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplicitShapeRegression.h; path = ../../MagicLib/Src/DIP/ExplicitShapeRegression.h; sourceTree = "<group>"; };
+		F8E52C39199F6FB60011D80B /* Classification.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Classification.cpp; path = ../../MagicLib/Src/DIP/Classification.cpp; sourceTree = "<group>"; };
+		F8E52C3A199F6FB60011D80B /* Classification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Classification.h; path = ../../MagicLib/Src/DIP/Classification.h; sourceTree = "<group>"; };
+		F8E52C3B199F6FB60011D80B /* Segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Segmentation.cpp; path = ../../MagicLib/Src/DIP/Segmentation.cpp; sourceTree = "<group>"; };
+		F8E52C3C199F6FB60011D80B /* Deformation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Deformation.cpp; path = ../../MagicLib/Src/DIP/Deformation.cpp; sourceTree = "<group>"; };
+		F8E52C3D199F6FB60011D80B /* FeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FeatureDetection.cpp; path = ../../MagicLib/Src/DIP/FeatureDetection.cpp; sourceTree = "<group>"; };
+		F8E52C3E199F6FB60011D80B /* FeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FeatureDetection.h; path = ../../MagicLib/Src/DIP/FeatureDetection.h; sourceTree = "<group>"; };
+		F8E52C3F199F6FB60011D80B /* Saliency.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Saliency.cpp; path = ../../MagicLib/Src/DIP/Saliency.cpp; sourceTree = "<group>"; };
+		F8E52C40199F6FB60011D80B /* Deformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Deformation.h; path = ../../MagicLib/Src/DIP/Deformation.h; sourceTree = "<group>"; };
+		F8E52C41199F6FB60011D80B /* Retargetting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Retargetting.cpp; path = ../../MagicLib/Src/DIP/Retargetting.cpp; sourceTree = "<group>"; };
+		F8E52C42199F6FB60011D80B /* Retargetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Retargetting.h; path = ../../MagicLib/Src/DIP/Retargetting.h; sourceTree = "<group>"; };
+		F8E52C43199F6FB60011D80B /* Saliency.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Saliency.h; path = ../../MagicLib/Src/DIP/Saliency.h; sourceTree = "<group>"; };
+		F8E52C44199F6FB60011D80B /* Segmentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Segmentation.h; path = ../../MagicLib/Src/DIP/Segmentation.h; sourceTree = "<group>"; };
+		F8E52C4F199F6FD60011D80B /* NeuralNetworks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NeuralNetworks.cpp; path = ../../MagicLib/Src/MachineLearning/NeuralNetworks.cpp; sourceTree = "<group>"; };
+		F8E52C50199F6FD60011D80B /* NeuralNetworks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NeuralNetworks.h; path = ../../MagicLib/Src/MachineLearning/NeuralNetworks.h; sourceTree = "<group>"; };
+		F8E52C51199F6FD60011D80B /* AdaBoost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AdaBoost.cpp; path = ../../MagicLib/Src/MachineLearning/AdaBoost.cpp; sourceTree = "<group>"; };
+		F8E52C52199F6FD60011D80B /* AdaBoost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaBoost.h; path = ../../MagicLib/Src/MachineLearning/AdaBoost.h; sourceTree = "<group>"; };
+		F8E52C53199F6FD60011D80B /* RandomMethod.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RandomMethod.cpp; path = ../../MagicLib/Src/MachineLearning/RandomMethod.cpp; sourceTree = "<group>"; };
+		F8E52C54199F6FD60011D80B /* RandomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RandomMethod.h; path = ../../MagicLib/Src/MachineLearning/RandomMethod.h; sourceTree = "<group>"; };
+		F8E52C55199F6FD60011D80B /* DecisionTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DecisionTree.cpp; path = ../../MagicLib/Src/MachineLearning/DecisionTree.cpp; sourceTree = "<group>"; };
+		F8E52C56199F6FD60011D80B /* DecisionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DecisionTree.h; path = ../../MagicLib/Src/MachineLearning/DecisionTree.h; sourceTree = "<group>"; };
+		F8E52C57199F6FD60011D80B /* LogisticRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LogisticRegression.cpp; path = ../../MagicLib/Src/MachineLearning/LogisticRegression.cpp; sourceTree = "<group>"; };
+		F8E52C58199F6FD60011D80B /* LinearRegression.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearRegression.cpp; path = ../../MagicLib/Src/MachineLearning/LinearRegression.cpp; sourceTree = "<group>"; };
+		F8E52C59199F6FD60011D80B /* LinearRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearRegression.h; path = ../../MagicLib/Src/MachineLearning/LinearRegression.h; sourceTree = "<group>"; };
+		F8E52C5A199F6FD60011D80B /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogisticRegression.h; path = ../../MagicLib/Src/MachineLearning/LogisticRegression.h; sourceTree = "<group>"; };
+		F8E52C5B199F6FD60011D80B /* Clustering.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Clustering.cpp; path = ../../MagicLib/Src/MachineLearning/Clustering.cpp; sourceTree = "<group>"; };
+		F8E52C5C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LinearDiscriminantAnalysis.cpp; path = ../../MagicLib/Src/MachineLearning/LinearDiscriminantAnalysis.cpp; sourceTree = "<group>"; };
+		F8E52C5D199F6FD60011D80B /* SupportVectorMachine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SupportVectorMachine.cpp; path = ../../MagicLib/Src/MachineLearning/SupportVectorMachine.cpp; sourceTree = "<group>"; };
+		F8E52C5E199F6FD60011D80B /* KernelFunction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KernelFunction.cpp; path = ../../MagicLib/Src/MachineLearning/KernelFunction.cpp; sourceTree = "<group>"; };
+		F8E52C5F199F6FD60011D80B /* KernelFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KernelFunction.h; path = ../../MagicLib/Src/MachineLearning/KernelFunction.h; sourceTree = "<group>"; };
+		F8E52C60199F6FD60011D80B /* LinearDiscriminantAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LinearDiscriminantAnalysis.h; path = ../../MagicLib/Src/MachineLearning/LinearDiscriminantAnalysis.h; sourceTree = "<group>"; };
+		F8E52C61199F6FD60011D80B /* NaiveBayes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NaiveBayes.cpp; path = ../../MagicLib/Src/MachineLearning/NaiveBayes.cpp; sourceTree = "<group>"; };
+		F8E52C62199F6FD60011D80B /* SupportVectorMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SupportVectorMachine.h; path = ../../MagicLib/Src/MachineLearning/SupportVectorMachine.h; sourceTree = "<group>"; };
+		F8E52C63199F6FD60011D80B /* NaiveBayes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NaiveBayes.h; path = ../../MagicLib/Src/MachineLearning/NaiveBayes.h; sourceTree = "<group>"; };
+		F8E52C64199F6FD60011D80B /* SparseDeepAutoencoder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseDeepAutoencoder.cpp; path = ../../MagicLib/Src/MachineLearning/SparseDeepAutoencoder.cpp; sourceTree = "<group>"; };
+		F8E52C65199F6FD60011D80B /* SparseDeepAutoencoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseDeepAutoencoder.h; path = ../../MagicLib/Src/MachineLearning/SparseDeepAutoencoder.h; sourceTree = "<group>"; };
+		F8E52C66199F6FD60011D80B /* DeepBeliefNets.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = DeepBeliefNets.cpp; path = ../../MagicLib/Src/MachineLearning/DeepBeliefNets.cpp; sourceTree = "<group>"; };
+		F8E52C67199F6FD60011D80B /* DeepBeliefNets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeepBeliefNets.h; path = ../../MagicLib/Src/MachineLearning/DeepBeliefNets.h; sourceTree = "<group>"; };
+		F8E52C68199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RestrictedBoltzmannMachines.cpp; path = ../../MagicLib/Src/MachineLearning/RestrictedBoltzmannMachines.cpp; sourceTree = "<group>"; };
+		F8E52C69199F6FD60011D80B /* RestrictedBoltzmannMachines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RestrictedBoltzmannMachines.h; path = ../../MagicLib/Src/MachineLearning/RestrictedBoltzmannMachines.h; sourceTree = "<group>"; };
+		F8E52C6A199F6FD60011D80B /* HiddenMarkovModels.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HiddenMarkovModels.cpp; path = ../../MagicLib/Src/MachineLearning/HiddenMarkovModels.cpp; sourceTree = "<group>"; };
+		F8E52C6B199F6FD60011D80B /* HiddenMarkovModels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HiddenMarkovModels.h; path = ../../MagicLib/Src/MachineLearning/HiddenMarkovModels.h; sourceTree = "<group>"; };
+		F8E52C6C199F6FD60011D80B /* Clustering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Clustering.h; path = ../../MagicLib/Src/MachineLearning/Clustering.h; sourceTree = "<group>"; };
+		F8E52C6D199F6FD60011D80B /* KMeansCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KMeansCoding.cpp; path = ../../MagicLib/Src/MachineLearning/KMeansCoding.cpp; sourceTree = "<group>"; };
+		F8E52C6E199F6FD60011D80B /* KMeansCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KMeansCoding.h; path = ../../MagicLib/Src/MachineLearning/KMeansCoding.h; sourceTree = "<group>"; };
+		F8E52C6F199F6FD60011D80B /* SparseCoding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseCoding.cpp; path = ../../MagicLib/Src/MachineLearning/SparseCoding.cpp; sourceTree = "<group>"; };
+		F8E52C70199F6FD60011D80B /* SparseCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseCoding.h; path = ../../MagicLib/Src/MachineLearning/SparseCoding.h; sourceTree = "<group>"; };
+		F8E52C71199F6FD60011D80B /* PrincipalComponentAnalysis.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PrincipalComponentAnalysis.cpp; path = ../../MagicLib/Src/MachineLearning/PrincipalComponentAnalysis.cpp; sourceTree = "<group>"; };
+		F8E52C72199F6FD60011D80B /* PrincipalComponentAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrincipalComponentAnalysis.h; path = ../../MagicLib/Src/MachineLearning/PrincipalComponentAnalysis.h; sourceTree = "<group>"; };
+		F8E52C73199F6FD60011D80B /* GaussianMixtureModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GaussianMixtureModel.cpp; path = ../../MagicLib/Src/MachineLearning/GaussianMixtureModel.cpp; sourceTree = "<group>"; };
+		F8E52C74199F6FD60011D80B /* GaussianMixtureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GaussianMixtureModel.h; path = ../../MagicLib/Src/MachineLearning/GaussianMixtureModel.h; sourceTree = "<group>"; };
+		F8E52C88199F6FF00011D80B /* FaceDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceDetection.cpp; path = ../../MagicLib/Src/AppModules/FaceDetection.cpp; sourceTree = "<group>"; };
+		F8E52C89199F6FF10011D80B /* FaceDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceDetection.h; path = ../../MagicLib/Src/AppModules/FaceDetection.h; sourceTree = "<group>"; };
+		F8E52C8A199F6FF10011D80B /* FaceFeatureDetection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeatureDetection.cpp; path = ../../MagicLib/Src/AppModules/FaceFeatureDetection.cpp; sourceTree = "<group>"; };
+		F8E52C8B199F6FF10011D80B /* FaceFeatureDetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeatureDetection.h; path = ../../MagicLib/Src/AppModules/FaceFeatureDetection.h; sourceTree = "<group>"; };
+		F8E52C8C199F6FF10011D80B /* Face2DObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2DObj.cpp; path = ../../MagicLib/Src/AppModules/Face2DObj.cpp; sourceTree = "<group>"; };
+		F8E52C8D199F6FF10011D80B /* Face2DObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2DObj.h; path = ../../MagicLib/Src/AppModules/Face2DObj.h; sourceTree = "<group>"; };
+		F8E52C8E199F6FF10011D80B /* FaceFeaturePoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FaceFeaturePoints.cpp; path = ../../MagicLib/Src/AppModules/FaceFeaturePoints.cpp; sourceTree = "<group>"; };
+		F8E52C8F199F6FF10011D80B /* FaceFeaturePoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FaceFeaturePoints.h; path = ../../MagicLib/Src/AppModules/FaceFeaturePoints.h; sourceTree = "<group>"; };
+		F8E52C90199F6FF10011D80B /* SimpleMLObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SimpleMLObj.cpp; path = ../../MagicLib/Src/AppModules/SimpleMLObj.cpp; sourceTree = "<group>"; };
+		F8E52C91199F6FF10011D80B /* SimpleMLObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SimpleMLObj.h; path = ../../MagicLib/Src/AppModules/SimpleMLObj.h; sourceTree = "<group>"; };
+		F8E52C92199F6FF10011D80B /* Face2D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Face2D.cpp; path = ../../MagicLib/Src/AppModules/Face2D.cpp; sourceTree = "<group>"; };
+		F8E52C93199F6FF10011D80B /* BasicImageProcess.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BasicImageProcess.cpp; path = ../../MagicLib/Src/AppModules/BasicImageProcess.cpp; sourceTree = "<group>"; };
+		F8E52C94199F6FF10011D80B /* BasicImageProcess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicImageProcess.h; path = ../../MagicLib/Src/AppModules/BasicImageProcess.h; sourceTree = "<group>"; };
+		F8E52C95199F6FF10011D80B /* Face2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Face2D.h; path = ../../MagicLib/Src/AppModules/Face2D.h; sourceTree = "<group>"; };
+		F8E52C96199F6FF10011D80B /* MagicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObject.h; path = ../../MagicLib/Src/AppModules/MagicObject.h; sourceTree = "<group>"; };
+		F8E52C97199F6FF10011D80B /* MagicObjectManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObjectManager.cpp; path = ../../MagicLib/Src/AppModules/MagicObjectManager.cpp; sourceTree = "<group>"; };
+		F8E52C98199F6FF10011D80B /* MagicObjectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagicObjectManager.h; path = ../../MagicLib/Src/AppModules/MagicObjectManager.h; sourceTree = "<group>"; };
+		F8E52C99199F6FF10011D80B /* MagicObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MagicObject.cpp; path = ../../MagicLib/Src/AppModules/MagicObject.cpp; sourceTree = "<group>"; };
+		F8E52CA3199F72320011D80B /* libopencv_calib3d.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_calib3d.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_calib3d.dylib; sourceTree = "<group>"; };
+		F8E52CA4199F72320011D80B /* libopencv_highgui.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_highgui.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_highgui.dylib; sourceTree = "<group>"; };
+		F8E52CA5199F72320011D80B /* libopencv_video.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_video.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_video.dylib; sourceTree = "<group>"; };
+		F8E52CA6199F72320011D80B /* libopencv_imgproc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_imgproc.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_imgproc.dylib; sourceTree = "<group>"; };
+		F8E52CA7199F72320011D80B /* libopencv_flann.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_flann.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_flann.dylib; sourceTree = "<group>"; };
+		F8E52CA8199F72320011D80B /* libopencv_core.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libopencv_core.dylib; path = ../MagicLib/Dependencies/OpenCV/lib_mac64/Release/libopencv_core.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,12 +246,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8805CCF191F68A300FE9A15 /* libopencv_calib3d.dylib in Frameworks */,
-				F8805CD0191F68A300FE9A15 /* libopencv_core.dylib in Frameworks */,
-				F8805CD1191F68A300FE9A15 /* libopencv_flann.dylib in Frameworks */,
-				F8805CD2191F68A300FE9A15 /* libopencv_highgui.dylib in Frameworks */,
-				F8805CD3191F68A300FE9A15 /* libopencv_imgproc.dylib in Frameworks */,
-				F8805CD4191F68A300FE9A15 /* libopencv_video.dylib in Frameworks */,
+				F8E52CA9199F72320011D80B /* libopencv_calib3d.dylib in Frameworks */,
+				F8E52CAA199F72320011D80B /* libopencv_highgui.dylib in Frameworks */,
+				F8E52CAB199F72320011D80B /* libopencv_video.dylib in Frameworks */,
+				F8E52CAC199F72320011D80B /* libopencv_imgproc.dylib in Frameworks */,
+				F8E52CAD199F72320011D80B /* libopencv_flann.dylib in Frameworks */,
+				F8E52CAE199F72320011D80B /* libopencv_core.dylib in Frameworks */,
 				F891E13B191E703800FE7290 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,9 +271,9 @@
 		F8429F10191F0ADF0079D2B3 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
-				F8AA9DD81948718600FE83B9 /* ErrorCodes.h */,
-				F8429F15191F0B410079D2B3 /* LogSystem.cpp */,
-				F8429F16191F0B410079D2B3 /* LogSystem.h */,
+				F8E52C12199F6F800011D80B /* ErrorCodes.h */,
+				F8E52C13199F6F800011D80B /* LogSystem.cpp */,
+				F8E52C14199F6F800011D80B /* LogSystem.h */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -288,22 +281,24 @@
 		F8429F11191F0AE60079D2B3 /* Math */ = {
 			isa = PBXGroup;
 			children = (
-				F8B4F707195AD97B00A3423E /* Optimization.cpp */,
-				F8B4F708195AD97B00A3423E /* Optimization.h */,
-				F80CCB6B195467090060580E /* DenseMatrix.cpp */,
-				F80CCB6C195467090060580E /* DenseMatrix.h */,
-				F8162270194089D000765768 /* BasicFunction.cpp */,
-				F8162271194089D000765768 /* BasicFunction.h */,
-				F8805CA5191F678100FE9A15 /* HomoMatrix3.cpp */,
-				F8805CA6191F678100FE9A15 /* HomoMatrix3.h */,
-				F8805CA7191F678100FE9A15 /* HomoMatrix4.cpp */,
-				F8805CA8191F678100FE9A15 /* HomoMatrix4.h */,
-				F8805CA9191F678100FE9A15 /* HomoVector4.cpp */,
-				F8805CAA191F678100FE9A15 /* HomoVector4.h */,
-				F8805CAB191F678100FE9A15 /* Vector2.cpp */,
-				F8805CAC191F678100FE9A15 /* Vector2.h */,
-				F8805CAD191F678100FE9A15 /* Vector3.cpp */,
-				F8805CAE191F678100FE9A15 /* Vector3.h */,
+				F8E52C16199F6F980011D80B /* CorrelationAnalysis.cpp */,
+				F8E52C17199F6F980011D80B /* CorrelationAnalysis.h */,
+				F8E52C18199F6F980011D80B /* Optimization.cpp */,
+				F8E52C19199F6F980011D80B /* Optimization.h */,
+				F8E52C1A199F6F980011D80B /* DenseMatrix.cpp */,
+				F8E52C1B199F6F980011D80B /* DenseMatrix.h */,
+				F8E52C1C199F6F980011D80B /* BasicFunction.cpp */,
+				F8E52C1D199F6F980011D80B /* BasicFunction.h */,
+				F8E52C1E199F6F980011D80B /* HomoMatrix3.cpp */,
+				F8E52C1F199F6F980011D80B /* HomoMatrix3.h */,
+				F8E52C20199F6F980011D80B /* HomoMatrix4.cpp */,
+				F8E52C21199F6F980011D80B /* HomoMatrix4.h */,
+				F8E52C22199F6F980011D80B /* HomoVector4.cpp */,
+				F8E52C23199F6F980011D80B /* HomoVector4.h */,
+				F8E52C24199F6F980011D80B /* Vector2.cpp */,
+				F8E52C25199F6F980011D80B /* Vector2.h */,
+				F8E52C26199F6F980011D80B /* Vector3.cpp */,
+				F8E52C27199F6F980011D80B /* Vector3.h */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -311,26 +306,26 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
-				F8089D121984B04A00EC1B47 /* ExplicitShapeRegression.cpp */,
-				F8089D131984B04A00EC1B47 /* ExplicitShapeRegression.h */,
-				F8089D141984B04A00EC1B47 /* ImageLoader.cpp */,
-				F8089D151984B04A00EC1B47 /* ImageLoader.h */,
-				F8089D161984B04A00EC1B47 /* RealTimeFaceDetection.cpp */,
-				F8089D171984B04A00EC1B47 /* RealTimeFaceDetection.h */,
-				F8F06497196BFDC800F091E1 /* CascadedPoseRegression.cpp */,
-				F8F06498196BFDC800F091E1 /* CascadedPoseRegression.h */,
-				F8FC9CB0192CC41700516071 /* FeatureDetection.cpp */,
-				F8FC9CB1192CC41700516071 /* FeatureDetection.h */,
-				F8805CBD191F684E00FE9A15 /* Deformation.cpp */,
-				F8805CBE191F684E00FE9A15 /* Deformation.h */,
-				F8805CBF191F684E00FE9A15 /* Retargetting.cpp */,
-				F8805CC0191F684E00FE9A15 /* Retargetting.h */,
-				F8805CC1191F684E00FE9A15 /* Saliency.cpp */,
-				F8805CC2191F684E00FE9A15 /* Saliency.h */,
-				F8805CC3191F684E00FE9A15 /* Segmentation.cpp */,
-				F8805CC4191F684E00FE9A15 /* Segmentation.h */,
-				F8AA9295193DF65800FCD1F0 /* Classification.cpp */,
-				F8AA9296193DF65800FCD1F0 /* Classification.h */,
+				F8E52C31199F6FB60011D80B /* RealTimeFaceDetection.cpp */,
+				F8E52C32199F6FB60011D80B /* RealTimeFaceDetection.h */,
+				F8E52C33199F6FB60011D80B /* ImageLoader.cpp */,
+				F8E52C34199F6FB60011D80B /* ImageLoader.h */,
+				F8E52C35199F6FB60011D80B /* ExplicitShapeRegression.cpp */,
+				F8E52C36199F6FB60011D80B /* CascadedPoseRegression.cpp */,
+				F8E52C37199F6FB60011D80B /* CascadedPoseRegression.h */,
+				F8E52C38199F6FB60011D80B /* ExplicitShapeRegression.h */,
+				F8E52C39199F6FB60011D80B /* Classification.cpp */,
+				F8E52C3A199F6FB60011D80B /* Classification.h */,
+				F8E52C3B199F6FB60011D80B /* Segmentation.cpp */,
+				F8E52C3C199F6FB60011D80B /* Deformation.cpp */,
+				F8E52C3D199F6FB60011D80B /* FeatureDetection.cpp */,
+				F8E52C3E199F6FB60011D80B /* FeatureDetection.h */,
+				F8E52C3F199F6FB60011D80B /* Saliency.cpp */,
+				F8E52C40199F6FB60011D80B /* Deformation.h */,
+				F8E52C41199F6FB60011D80B /* Retargetting.cpp */,
+				F8E52C42199F6FB60011D80B /* Retargetting.h */,
+				F8E52C43199F6FB60011D80B /* Saliency.h */,
+				F8E52C44199F6FB60011D80B /* Segmentation.h */,
 			);
 			name = DIP;
 			sourceTree = "<group>";
@@ -338,44 +333,44 @@
 		F8429F13191F0AF30079D2B3 /* MachineLearning */ = {
 			isa = PBXGroup;
 			children = (
-				F8F06494196BFDB800F091E1 /* RandomMethod.cpp */,
-				F8F06495196BFDB800F091E1 /* RandomMethod.h */,
-				F8AA9DD21948716100FE83B9 /* SparseDeepAutoencoder.cpp */,
-				F8AA9DD31948716100FE83B9 /* SparseDeepAutoencoder.h */,
-				F8A4E779194752EF0081C6D4 /* DeepBeliefNets.cpp */,
-				F8A4E77A194752EF0081C6D4 /* DeepBeliefNets.h */,
-				F8A4E77319471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp */,
-				F8A4E77419471DC40081C6D4 /* RestrictedBoltzmannMachines.h */,
-				F82CA2F71942C192004F6D10 /* HiddenMarkovModels.cpp */,
-				F82CA2F81942C192004F6D10 /* HiddenMarkovModels.h */,
-				F82503931941E92600B583D3 /* NeuralNetworks.cpp */,
-				F82503941941E92600B583D3 /* NeuralNetworks.h */,
-				F8162264194089A700765768 /* AdaBoost.cpp */,
-				F8162265194089A700765768 /* AdaBoost.h */,
-				F8162266194089A700765768 /* LogisticRegression.cpp */,
-				F8162267194089A700765768 /* LogisticRegression.h */,
-				F8162268194089A700765768 /* NaiveBayes.cpp */,
-				F8162269194089A700765768 /* NaiveBayes.h */,
-				F816226A194089A700765768 /* SupportVectorMachine.cpp */,
-				F816226B194089A700765768 /* SupportVectorMachine.h */,
-				F89329D0192A318B00E39243 /* LinearRegression.cpp */,
-				F89329D1192A318B00E39243 /* LinearRegression.h */,
-				F8805CB4191F680B00FE9A15 /* Clustering.cpp */,
-				F8805CB5191F680B00FE9A15 /* Clustering.h */,
-				F8805CB6191F680B00FE9A15 /* GaussianMixtureModel.cpp */,
-				F8805CB7191F680B00FE9A15 /* GaussianMixtureModel.h */,
-				F8805CB8191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp */,
-				F8805CB9191F680B00FE9A15 /* PrincipalComponentAnalysis.h */,
-				F87A0E72193B5D0B00790C1D /* SparseCoding.cpp */,
-				F87A0E73193B5D0B00790C1D /* SparseCoding.h */,
-				F86A9C16193C622400CE9E12 /* KMeansCoding.cpp */,
-				F86A9C17193C622400CE9E12 /* KMeansCoding.h */,
-				F8250396194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp */,
-				F8250397194209EA00B583D3 /* LinearDiscriminantAnalysis.h */,
-				F825039919420B3300B583D3 /* KernelFunction.cpp */,
-				F825039A19420B3300B583D3 /* KernelFunction.h */,
-				F8F658DD19641E3B004D5A36 /* DecisionTree.cpp */,
-				F8F658DE19641E3B004D5A36 /* DecisionTree.h */,
+				F8E52C4F199F6FD60011D80B /* NeuralNetworks.cpp */,
+				F8E52C50199F6FD60011D80B /* NeuralNetworks.h */,
+				F8E52C51199F6FD60011D80B /* AdaBoost.cpp */,
+				F8E52C52199F6FD60011D80B /* AdaBoost.h */,
+				F8E52C53199F6FD60011D80B /* RandomMethod.cpp */,
+				F8E52C54199F6FD60011D80B /* RandomMethod.h */,
+				F8E52C55199F6FD60011D80B /* DecisionTree.cpp */,
+				F8E52C56199F6FD60011D80B /* DecisionTree.h */,
+				F8E52C57199F6FD60011D80B /* LogisticRegression.cpp */,
+				F8E52C58199F6FD60011D80B /* LinearRegression.cpp */,
+				F8E52C59199F6FD60011D80B /* LinearRegression.h */,
+				F8E52C5A199F6FD60011D80B /* LogisticRegression.h */,
+				F8E52C5B199F6FD60011D80B /* Clustering.cpp */,
+				F8E52C5C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp */,
+				F8E52C5D199F6FD60011D80B /* SupportVectorMachine.cpp */,
+				F8E52C5E199F6FD60011D80B /* KernelFunction.cpp */,
+				F8E52C5F199F6FD60011D80B /* KernelFunction.h */,
+				F8E52C60199F6FD60011D80B /* LinearDiscriminantAnalysis.h */,
+				F8E52C61199F6FD60011D80B /* NaiveBayes.cpp */,
+				F8E52C62199F6FD60011D80B /* SupportVectorMachine.h */,
+				F8E52C63199F6FD60011D80B /* NaiveBayes.h */,
+				F8E52C64199F6FD60011D80B /* SparseDeepAutoencoder.cpp */,
+				F8E52C65199F6FD60011D80B /* SparseDeepAutoencoder.h */,
+				F8E52C66199F6FD60011D80B /* DeepBeliefNets.cpp */,
+				F8E52C67199F6FD60011D80B /* DeepBeliefNets.h */,
+				F8E52C68199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp */,
+				F8E52C69199F6FD60011D80B /* RestrictedBoltzmannMachines.h */,
+				F8E52C6A199F6FD60011D80B /* HiddenMarkovModels.cpp */,
+				F8E52C6B199F6FD60011D80B /* HiddenMarkovModels.h */,
+				F8E52C6C199F6FD60011D80B /* Clustering.h */,
+				F8E52C6D199F6FD60011D80B /* KMeansCoding.cpp */,
+				F8E52C6E199F6FD60011D80B /* KMeansCoding.h */,
+				F8E52C6F199F6FD60011D80B /* SparseCoding.cpp */,
+				F8E52C70199F6FD60011D80B /* SparseCoding.h */,
+				F8E52C71199F6FD60011D80B /* PrincipalComponentAnalysis.cpp */,
+				F8E52C72199F6FD60011D80B /* PrincipalComponentAnalysis.h */,
+				F8E52C73199F6FD60011D80B /* GaussianMixtureModel.cpp */,
+				F8E52C74199F6FD60011D80B /* GaussianMixtureModel.h */,
 			);
 			name = MachineLearning;
 			sourceTree = "<group>";
@@ -392,13 +387,11 @@
 		F8429F3C191F0BD40079D2B3 /* GraphCut */ = {
 			isa = PBXGroup;
 			children = (
-				F8429F3D191F0BEC0079D2B3 /* block.h */,
-				F8429F3E191F0BEC0079D2B3 /* CHANGES.TXT */,
-				F8429F3F191F0BEC0079D2B3 /* graph.cpp */,
-				F8429F40191F0BEC0079D2B3 /* graph.h */,
-				F8429F41191F0BEC0079D2B3 /* instances.inc */,
-				F8429F42191F0BEC0079D2B3 /* maxflow.cpp */,
-				F8429F43191F0BEC0079D2B3 /* README.TXT */,
+				F8E52C0A199F6F6B0011D80B /* block.h */,
+				F8E52C0B199F6F6B0011D80B /* graph.cpp */,
+				F8E52C0C199F6F6B0011D80B /* graph.h */,
+				F8E52C0D199F6F6B0011D80B /* instances.inc */,
+				F8E52C0E199F6F6B0011D80B /* maxflow.cpp */,
 			);
 			name = GraphCut;
 			sourceTree = "<group>";
@@ -406,10 +399,10 @@
 		F847541C191F49C500784E1D /* Flann */ = {
 			isa = PBXGroup;
 			children = (
-				F847541D191F49FF00784E1D /* flann_cpp.cpp */,
-				F847541E191F49FF00784E1D /* flann.cpp */,
-				F847541F191F49FF00784E1D /* flann.h */,
-				F8475420191F49FF00784E1D /* flann.hpp */,
+				F8E52C04199F6ECD0011D80B /* flann_cpp.cpp */,
+				F8E52C05199F6ECD0011D80B /* flann.cpp */,
+				F8E52C06199F6ECD0011D80B /* flann.h */,
+				F8E52C07199F6ECD0011D80B /* flann.hpp */,
 			);
 			name = Flann;
 			sourceTree = "<group>";
@@ -470,18 +463,12 @@
 		F891E139191E703800FE7290 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F8805CC9191F68A300FE9A15 /* libopencv_calib3d.dylib */,
-				F8805CCA191F68A300FE9A15 /* libopencv_core.dylib */,
-				F8805CCB191F68A300FE9A15 /* libopencv_flann.dylib */,
-				F8805CCC191F68A300FE9A15 /* libopencv_highgui.dylib */,
-				F8805CCD191F68A300FE9A15 /* libopencv_imgproc.dylib */,
-				F8805CCE191F68A300FE9A15 /* libopencv_video.dylib */,
-				F8475423191F4FF600784E1D /* libopencv_calib3d.dylib */,
-				F8475424191F4FF600784E1D /* libopencv_core.dylib */,
-				F8475425191F4FF600784E1D /* libopencv_flann.dylib */,
-				F8475426191F4FF600784E1D /* libopencv_highgui.dylib */,
-				F8475427191F4FF600784E1D /* libopencv_imgproc.dylib */,
-				F8475428191F4FF600784E1D /* libopencv_video.dylib */,
+				F8E52CA3199F72320011D80B /* libopencv_calib3d.dylib */,
+				F8E52CA4199F72320011D80B /* libopencv_highgui.dylib */,
+				F8E52CA5199F72320011D80B /* libopencv_video.dylib */,
+				F8E52CA6199F72320011D80B /* libopencv_imgproc.dylib */,
+				F8E52CA7199F72320011D80B /* libopencv_flann.dylib */,
+				F8E52CA8199F72320011D80B /* libopencv_core.dylib */,
 				F891E13A191E703800FE7290 /* Cocoa.framework */,
 				F891E159191E703900FE7290 /* XCTest.framework */,
 				F891E13C191E703800FE7290 /* Other Frameworks */,
@@ -502,13 +489,8 @@
 		F891E140191E703800FE7290 /* MagicFace */ = {
 			isa = PBXGroup;
 			children = (
-				F89329D3192A31BE00E39243 /* AppModules */,
+				F8E52C03199F6E7A0011D80B /* MagicLib */,
 				F88401CB1920F1E60022FEEE /* App */,
-				F8429F14191F0B1F0079D2B3 /* Dependence */,
-				F8429F13191F0AF30079D2B3 /* MachineLearning */,
-				F8429F12191F0AEB0079D2B3 /* DIP */,
-				F8429F11191F0AE60079D2B3 /* Math */,
-				F8429F10191F0ADF0079D2B3 /* Tool */,
 				F891E14C191E703800FE7290 /* AppDelegate.h */,
 				F891E14D191E703800FE7290 /* AppDelegate.m */,
 				F891E14F191E703800FE7290 /* MainMenu.xib */,
@@ -551,24 +533,24 @@
 		F89329D3192A31BE00E39243 /* AppModules */ = {
 			isa = PBXGroup;
 			children = (
-				F8089D0F1984B01500EC1B47 /* FaceDetection.cpp */,
-				F8089D101984B01500EC1B47 /* FaceDetection.h */,
-				F89A2F8E196E9C2B009A030D /* FaceFeatureDetection.cpp */,
-				F89A2F8F196E9C2B009A030D /* FaceFeatureDetection.h */,
-				F8AA9DD51948717000FE83B9 /* SimpleMLObj.cpp */,
-				F8AA9DD61948717000FE83B9 /* SimpleMLObj.h */,
-				F87040DC1931695A00F72A18 /* BasicImageProcess.cpp */,
-				F87040DD1931695A00F72A18 /* BasicImageProcess.h */,
-				F87040DE1931695A00F72A18 /* Face2DObj.cpp */,
-				F87040DF1931695A00F72A18 /* Face2DObj.h */,
-				F87040E01931695A00F72A18 /* FaceFeaturePoints.cpp */,
-				F87040E11931695A00F72A18 /* FaceFeaturePoints.h */,
-				F89329D4192A31D700E39243 /* Face2D.cpp */,
-				F89329D5192A31D700E39243 /* Face2D.h */,
-				F870AC3C192CEDA60008AD0E /* MagicObject.cpp */,
-				F870AC3D192CEDA60008AD0E /* MagicObject.h */,
-				F870AC3F192CEEE50008AD0E /* MagicObjectManager.cpp */,
-				F870AC40192CEEE50008AD0E /* MagicObjectManager.h */,
+				F8E52C88199F6FF00011D80B /* FaceDetection.cpp */,
+				F8E52C89199F6FF10011D80B /* FaceDetection.h */,
+				F8E52C8A199F6FF10011D80B /* FaceFeatureDetection.cpp */,
+				F8E52C8B199F6FF10011D80B /* FaceFeatureDetection.h */,
+				F8E52C8C199F6FF10011D80B /* Face2DObj.cpp */,
+				F8E52C8D199F6FF10011D80B /* Face2DObj.h */,
+				F8E52C8E199F6FF10011D80B /* FaceFeaturePoints.cpp */,
+				F8E52C8F199F6FF10011D80B /* FaceFeaturePoints.h */,
+				F8E52C90199F6FF10011D80B /* SimpleMLObj.cpp */,
+				F8E52C91199F6FF10011D80B /* SimpleMLObj.h */,
+				F8E52C92199F6FF10011D80B /* Face2D.cpp */,
+				F8E52C93199F6FF10011D80B /* BasicImageProcess.cpp */,
+				F8E52C94199F6FF10011D80B /* BasicImageProcess.h */,
+				F8E52C95199F6FF10011D80B /* Face2D.h */,
+				F8E52C96199F6FF10011D80B /* MagicObject.h */,
+				F8E52C97199F6FF10011D80B /* MagicObjectManager.cpp */,
+				F8E52C98199F6FF10011D80B /* MagicObjectManager.h */,
+				F8E52C99199F6FF10011D80B /* MagicObject.cpp */,
 			);
 			name = AppModules;
 			sourceTree = "<group>";
@@ -580,6 +562,19 @@
 				F8B678ED192BAA9F00B93858 /* MainApp.m */,
 			);
 			name = MainApp;
+			sourceTree = "<group>";
+		};
+		F8E52C03199F6E7A0011D80B /* MagicLib */ = {
+			isa = PBXGroup;
+			children = (
+				F8429F14191F0B1F0079D2B3 /* Dependence */,
+				F8429F10191F0ADF0079D2B3 /* Tool */,
+				F8429F11191F0AE60079D2B3 /* Math */,
+				F8429F12191F0AEB0079D2B3 /* DIP */,
+				F8429F13191F0AF30079D2B3 /* MachineLearning */,
+				F89329D3192A31BE00E39243 /* AppModules */,
+			);
+			name = MagicLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -658,10 +653,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8429F48191F0BEC0079D2B3 /* README.TXT in Resources */,
 				F891E145191E703800FE7290 /* InfoPlist.strings in Resources */,
 				F891E153191E703800FE7290 /* Images.xcassets in Resources */,
-				F8429F44191F0BEC0079D2B3 /* CHANGES.TXT in Resources */,
 				F891E14B191E703800FE7290 /* Credits.rtf in Resources */,
 				F891E151191E703800FE7290 /* MainMenu.xib in Resources */,
 			);
@@ -682,66 +675,67 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8162272194089D000765768 /* BasicFunction.cpp in Sources */,
-				F8475421191F49FF00784E1D /* flann_cpp.cpp in Sources */,
-				F8A4E77B194752EF0081C6D4 /* DeepBeliefNets.cpp in Sources */,
-				F8089D111984B01500EC1B47 /* FaceDetection.cpp in Sources */,
+				F8E52C30199F6F980011D80B /* Vector3.cpp in Sources */,
 				F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */,
-				F8805CBB191F680B00FE9A15 /* GaussianMixtureModel.cpp in Sources */,
-				F8805CB2191F678100FE9A15 /* Vector2.cpp in Sources */,
-				F8475422191F49FF00784E1D /* flann.cpp in Sources */,
-				F8805CB3191F678100FE9A15 /* Vector3.cpp in Sources */,
-				F8250398194209EA00B583D3 /* LinearDiscriminantAnalysis.cpp in Sources */,
-				F8805CB0191F678100FE9A15 /* HomoMatrix4.cpp in Sources */,
+				F8E52C47199F6FB60011D80B /* ExplicitShapeRegression.cpp in Sources */,
+				F8E52C09199F6ECD0011D80B /* flann.cpp in Sources */,
+				F8E52C7D199F6FD60011D80B /* SupportVectorMachine.cpp in Sources */,
+				F8E52C9A199F6FF10011D80B /* FaceDetection.cpp in Sources */,
+				F8E52C7E199F6FD60011D80B /* KernelFunction.cpp in Sources */,
+				F8E52C79199F6FD60011D80B /* LogisticRegression.cpp in Sources */,
 				F88401D11920F2020022FEEE /* AppBase.m in Sources */,
-				F8805CAF191F678100FE9A15 /* HomoMatrix3.cpp in Sources */,
-				F8805CC5191F684E00FE9A15 /* Deformation.cpp in Sources */,
-				F87040E21931695A00F72A18 /* BasicImageProcess.cpp in Sources */,
-				F80CCB6D195467090060580E /* DenseMatrix.cpp in Sources */,
-				F8805CB1191F678100FE9A15 /* HomoVector4.cpp in Sources */,
-				F89329D2192A318B00E39243 /* LinearRegression.cpp in Sources */,
-				F8805CBC191F680B00FE9A15 /* PrincipalComponentAnalysis.cpp in Sources */,
-				F870AC41192CEEE50008AD0E /* MagicObjectManager.cpp in Sources */,
-				F89A2F90196E9C2B009A030D /* FaceFeatureDetection.cpp in Sources */,
+				F8E52C08199F6ECD0011D80B /* flann_cpp.cpp in Sources */,
+				F8E52C46199F6FB60011D80B /* ImageLoader.cpp in Sources */,
+				F8E52C29199F6F980011D80B /* Optimization.cpp in Sources */,
+				F8E52C85199F6FD60011D80B /* SparseCoding.cpp in Sources */,
+				F8E52C4B199F6FB60011D80B /* Deformation.cpp in Sources */,
+				F8E52C87199F6FD60011D80B /* GaussianMixtureModel.cpp in Sources */,
+				F8E52C76199F6FD60011D80B /* AdaBoost.cpp in Sources */,
+				F8E52C86199F6FD60011D80B /* PrincipalComponentAnalysis.cpp in Sources */,
+				F8E52C4A199F6FB60011D80B /* Segmentation.cpp in Sources */,
+				F8E52C2E199F6F980011D80B /* HomoVector4.cpp in Sources */,
+				F8E52C10199F6F6B0011D80B /* instances.inc in Sources */,
+				F8E52C81199F6FD60011D80B /* DeepBeliefNets.cpp in Sources */,
+				F8E52C77199F6FD60011D80B /* RandomMethod.cpp in Sources */,
+				F8E52C80199F6FD60011D80B /* SparseDeepAutoencoder.cpp in Sources */,
+				F8E52C7A199F6FD60011D80B /* LinearRegression.cpp in Sources */,
+				F8E52C84199F6FD60011D80B /* KMeansCoding.cpp in Sources */,
+				F8E52CA2199F6FF10011D80B /* MagicObject.cpp in Sources */,
 				F88401DF1920F3900022FEEE /* Face2DController.m in Sources */,
-				F8F658DF19641E3B004D5A36 /* DecisionTree.cpp in Sources */,
-				F816226D194089A700765768 /* LogisticRegression.cpp in Sources */,
+				F8E52C9E199F6FF10011D80B /* SimpleMLObj.cpp in Sources */,
+				F8E52C28199F6F980011D80B /* CorrelationAnalysis.cpp in Sources */,
+				F8E52CA0199F6FF10011D80B /* BasicImageProcess.cpp in Sources */,
+				F8E52C4D199F6FB60011D80B /* Saliency.cpp in Sources */,
 				F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */,
 				F891E14E191E703800FE7290 /* AppDelegate.m in Sources */,
-				F8089D191984B04A00EC1B47 /* ImageLoader.cpp in Sources */,
-				F87040E41931695A00F72A18 /* FaceFeaturePoints.cpp in Sources */,
-				F8B4F709195AD97B00A3423E /* Optimization.cpp in Sources */,
-				F8805CC8191F684E00FE9A15 /* Segmentation.cpp in Sources */,
-				F86A9C18193C622400CE9E12 /* KMeansCoding.cpp in Sources */,
-				F8805CC6191F684E00FE9A15 /* Retargetting.cpp in Sources */,
-				F8805CC7191F684E00FE9A15 /* Saliency.cpp in Sources */,
-				F87A0E74193B5D0B00790C1D /* SparseCoding.cpp in Sources */,
-				F816226C194089A700765768 /* AdaBoost.cpp in Sources */,
-				F8429F46191F0BEC0079D2B3 /* instances.inc in Sources */,
-				F8F06499196BFDC800F091E1 /* CascadedPoseRegression.cpp in Sources */,
-				F816226F194089A700765768 /* SupportVectorMachine.cpp in Sources */,
-				F870AC3E192CEDA60008AD0E /* MagicObject.cpp in Sources */,
-				F8089D1A1984B04A00EC1B47 /* RealTimeFaceDetection.cpp in Sources */,
-				F8AA9297193DF65800FCD1F0 /* Classification.cpp in Sources */,
-				F87040E31931695A00F72A18 /* Face2DObj.cpp in Sources */,
-				F8429F47191F0BEC0079D2B3 /* maxflow.cpp in Sources */,
-				F8429F17191F0B410079D2B3 /* LogSystem.cpp in Sources */,
-				F82CA2F91942C192004F6D10 /* HiddenMarkovModels.cpp in Sources */,
-				F82503951941E92600B583D3 /* NeuralNetworks.cpp in Sources */,
-				F8805CBA191F680B00FE9A15 /* Clustering.cpp in Sources */,
+				F8E52C7B199F6FD60011D80B /* Clustering.cpp in Sources */,
+				F8E52C9F199F6FF10011D80B /* Face2D.cpp in Sources */,
+				F8E52C11199F6F6B0011D80B /* maxflow.cpp in Sources */,
+				F8E52C0F199F6F6B0011D80B /* graph.cpp in Sources */,
+				F8E52C48199F6FB60011D80B /* CascadedPoseRegression.cpp in Sources */,
+				F8E52C4E199F6FB60011D80B /* Retargetting.cpp in Sources */,
+				F8E52C2F199F6F980011D80B /* Vector2.cpp in Sources */,
+				F8E52C7F199F6FD60011D80B /* NaiveBayes.cpp in Sources */,
+				F8E52C2C199F6F980011D80B /* HomoMatrix3.cpp in Sources */,
+				F8E52C83199F6FD60011D80B /* HiddenMarkovModels.cpp in Sources */,
 				F88401D21920F2020022FEEE /* AppManager.m in Sources */,
+				F8E52C2B199F6F980011D80B /* BasicFunction.cpp in Sources */,
+				F8E52C45199F6FB60011D80B /* RealTimeFaceDetection.cpp in Sources */,
+				F8E52C2A199F6F980011D80B /* DenseMatrix.cpp in Sources */,
+				F8E52C75199F6FD60011D80B /* NeuralNetworks.cpp in Sources */,
 				F891E147191E703800FE7290 /* main.m in Sources */,
-				F8FC9CB2192CC41700516071 /* FeatureDetection.cpp in Sources */,
-				F8089D181984B04A00EC1B47 /* ExplicitShapeRegression.cpp in Sources */,
-				F8429F45191F0BEC0079D2B3 /* graph.cpp in Sources */,
+				F8E52C9C199F6FF10011D80B /* Face2DObj.cpp in Sources */,
+				F8E52C9D199F6FF10011D80B /* FaceFeaturePoints.cpp in Sources */,
+				F8E52C15199F6F800011D80B /* LogSystem.cpp in Sources */,
 				F88401D91920F3100022FEEE /* Face2DView.m in Sources */,
-				F8A4E77519471DC40081C6D4 /* RestrictedBoltzmannMachines.cpp in Sources */,
-				F825039B19420B3300B583D3 /* KernelFunction.cpp in Sources */,
-				F8AA9DD41948716100FE83B9 /* SparseDeepAutoencoder.cpp in Sources */,
-				F816226E194089A700765768 /* NaiveBayes.cpp in Sources */,
-				F8F06496196BFDB800F091E1 /* RandomMethod.cpp in Sources */,
-				F8AA9DD71948717000FE83B9 /* SimpleMLObj.cpp in Sources */,
-				F89329D6192A31D700E39243 /* Face2D.cpp in Sources */,
+				F8E52C9B199F6FF10011D80B /* FaceFeatureDetection.cpp in Sources */,
+				F8E52C49199F6FB60011D80B /* Classification.cpp in Sources */,
+				F8E52C2D199F6F980011D80B /* HomoMatrix4.cpp in Sources */,
+				F8E52C7C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp in Sources */,
+				F8E52C4C199F6FB60011D80B /* FeatureDetection.cpp in Sources */,
+				F8E52C82199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp in Sources */,
+				F8E52CA1199F6FF10011D80B /* MagicObjectManager.cpp in Sources */,
+				F8E52C78199F6FD60011D80B /* DecisionTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -890,16 +884,17 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"./MagicFace/Src/Dependence/Flann1.8.4/**",
-					"./MagicFace/Src/Dependence/OpenCV/include/**",
-					./MagicFace/Src/Dependence/Eigen3.2.0,
+					"../MagicLib/Dependencies/FlannSrc/**",
+					"../MagicLib/Dependencies/OpenCV/include/**",
+					../MagicLib/Dependencies/Eigen3.2.0,
 				);
 				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
 				LD_DYLIB_INSTALL_NAME = "";
 				LIBRARY_SEARCH_PATHS = (
-					./MagicFace/Src/Dependence/OpenCV/lib/debug,
-					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Debug",
-					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Release",
+					../MagicLib/Dependencies/OpenCV/lib_mac64/debug,
+					"$(PROJECT_DIR)/../MagicLib/Dependence/OpenCV/lib_mac64/Debug",
+					"$(PROJECT_DIR)/../MagicLib/Dependencies/OpenCV/lib_mac64/Release",
+					/Users/liguo/Code/gitrepo/MagicLib/Dependencies/OpenCV/lib_mac64/Release,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -918,15 +913,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"./MagicFace/Src/Dependence/Flann1.8.4/**",
-					"./MagicFace/Src/Dependence/OpenCV/include/**",
-					./MagicFace/Src/Dependence/Eigen3.2.0,
+					"../MagicLib/Dependencies/FlannSrc/**",
+					"../MagicLib/Dependencies/OpenCV/include/**",
+					../MagicLib/Dependencies/Eigen3.2.0,
 				);
 				INFOPLIST_FILE = "MagicFace/MagicFace-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
-					./MagicFace/Src/Dependence/OpenCV/lib/release,
-					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Debug",
-					"$(PROJECT_DIR)/MagicFace/Src/Dependence/OpenCV/lib/Release",
+					../MagicLib/Dependencies/OpenCV/lib_mac64/release,
+					"$(PROJECT_DIR)/../MagicLib/Dependencies/OpenCV/lib_mac64/Debug",
+					"$(PROJECT_DIR)/../MagicLib/Dependencies/OpenCV/lib_mac64/Release",
+					/Users/liguo/Code/gitrepo/MagicLib/Dependencies/OpenCV/lib_mac64/Release,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
