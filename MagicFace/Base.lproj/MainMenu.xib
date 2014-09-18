@@ -677,8 +677,8 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button toolTip="Face2D Application" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNO-vn-N14">
-                        <rect key="frame" x="176" y="78" width="128" height="125"/>
+                    <button toolTip="Face2D Application" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dNO-vn-N14" userLabel="Face2DApp">
+                        <rect key="frame" x="134" y="51" width="64" height="64"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Face2D" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Frog" inset="2" id="63F-Ra-HHB">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
@@ -688,8 +688,8 @@
                             <action selector="EnterFace2DApp:" target="Voe-Tx-rLC" id="WJr-O2-133"/>
                         </connections>
                     </button>
-                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-wZ-79O">
-                        <rect key="frame" x="132" y="221" width="216" height="49"/>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-wZ-79O" userLabel="MagicTitle">
+                        <rect key="frame" x="132" y="156" width="216" height="49"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Magic Face" id="FA8-Zr-Gj6">
                             <font key="font" metaFont="system" size="36"/>
@@ -697,6 +697,46 @@
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                         </textFieldCell>
                     </textField>
+                    <button toolTip="Construct Face 2D Avatar" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HYr-03-T4k" userLabel="Avatar2DApp">
+                        <rect key="frame" x="282" y="51" width="64" height="64"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="avatar" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Funk" inset="2" id="9tE-Zs-kaj">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button toolTip="Face 2D Animation" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eeb-nT-Ixu">
+                        <rect key="frame" x="134" y="249" width="64" height="61"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Animation" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Blow" inset="2" id="XhD-Yw-zIx">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button toolTip="Swap Face Application" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9PS-kQ-IvA">
+                        <rect key="frame" x="282" y="246" width="64" height="64"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="SwapFace" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Basso" inset="2" id="OlA-b7-T4x">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button toolTip="Avatar 3D Application" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lUR-S4-wfl">
+                        <rect key="frame" x="41" y="150" width="64" height="61"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Avatar3D" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Glass" inset="2" id="f0L-hZ-mCx">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
+                    <button toolTip="Face Morpher Application" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6NA-7q-U1S">
+                        <rect key="frame" x="379" y="150" width="64" height="61"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="squareTextured" bezelStyle="texturedSquare" image="Morpher" imagePosition="overlaps" alignment="center" imageScaling="proportionallyDown" sound="Hero" inset="2" id="coE-Js-AHS">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                    </button>
                 </subviews>
             </view>
         </window>
@@ -867,13 +907,23 @@
         </customView>
     </objects>
     <resources>
+        <image name="Animation" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="Avatar3D" width="61.439998626708984" height="61.439998626708984"/>
         <image name="DeformColor" width="60" height="60"/>
         <image name="DeformFeature" width="60" height="60"/>
         <image name="Face2D" width="61.439998626708984" height="61.439998626708984"/>
+        <image name="Morpher" width="64" height="64"/>
+        <image name="SwapFace" width="64" height="64"/>
+        <image name="avatar" width="61.439998626708984" height="61.439998626708984"/>
         <image name="edit" width="60" height="60"/>
         <image name="home" width="60" height="60"/>
         <image name="open" width="60" height="60"/>
+        <sound name="Basso"/>
+        <sound name="Blow"/>
         <sound name="Frog"/>
+        <sound name="Funk"/>
+        <sound name="Glass"/>
+        <sound name="Hero"/>
         <sound name="Submarine"/>
     </resources>
 </document>
