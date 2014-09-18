@@ -23,6 +23,8 @@
 		F891E15B191E703900FE7290 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F891E13A191E703800FE7290 /* Cocoa.framework */; };
 		F891E163191E703900FE7290 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F891E161191E703900FE7290 /* InfoPlist.strings */; };
 		F891E165191E703900FE7290 /* MagicFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F891E164191E703900FE7290 /* MagicFaceTests.m */; };
+		F8AE34E719CAF53300BC5AF8 /* Profiler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AE34E619CAF53300BC5AF8 /* Profiler.cpp */; };
+		F8AE34EA19CAF5F900BC5AF8 /* FisherVectorFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8AE34E819CAF5F900BC5AF8 /* FisherVectorFace.cpp */; };
 		F8B678EE192BAA9F00B93858 /* MainApp.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B678ED192BAA9F00B93858 /* MainApp.m */; };
 		F8E52C08199F6ECD0011D80B /* flann_cpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C04199F6ECD0011D80B /* flann_cpp.cpp */; };
 		F8E52C09199F6ECD0011D80B /* flann.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F8E52C05199F6ECD0011D80B /* flann.cpp */; };
@@ -125,6 +127,10 @@
 		F891E160191E703900FE7290 /* MagicFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MagicFaceTests-Info.plist"; sourceTree = "<group>"; };
 		F891E162191E703900FE7290 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F891E164191E703900FE7290 /* MagicFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MagicFaceTests.m; sourceTree = "<group>"; };
+		F8AE34E519CAF53300BC5AF8 /* Profiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Profiler.h; path = ../../MagicLib/Src/Tool/Profiler.h; sourceTree = "<group>"; };
+		F8AE34E619CAF53300BC5AF8 /* Profiler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Profiler.cpp; path = ../../MagicLib/Src/Tool/Profiler.cpp; sourceTree = "<group>"; };
+		F8AE34E819CAF5F900BC5AF8 /* FisherVectorFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FisherVectorFace.cpp; path = ../../MagicLib/Src/DIP/FisherVectorFace.cpp; sourceTree = "<group>"; };
+		F8AE34E919CAF5F900BC5AF8 /* FisherVectorFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FisherVectorFace.h; path = ../../MagicLib/Src/DIP/FisherVectorFace.h; sourceTree = "<group>"; };
 		F8B678EC192BAA9F00B93858 /* MainApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainApp.h; path = Src/App/MainApp/MainApp.h; sourceTree = "<group>"; };
 		F8B678ED192BAA9F00B93858 /* MainApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainApp.m; path = Src/App/MainApp/MainApp.m; sourceTree = "<group>"; };
 		F8E52C04199F6ECD0011D80B /* flann_cpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = flann_cpp.cpp; path = ../../MagicLib/Dependencies/FlannSrc/flann/flann_cpp.cpp; sourceTree = "<group>"; };
@@ -271,6 +277,8 @@
 		F8429F10191F0ADF0079D2B3 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				F8AE34E519CAF53300BC5AF8 /* Profiler.h */,
+				F8AE34E619CAF53300BC5AF8 /* Profiler.cpp */,
 				F8E52C12199F6F800011D80B /* ErrorCodes.h */,
 				F8E52C13199F6F800011D80B /* LogSystem.cpp */,
 				F8E52C14199F6F800011D80B /* LogSystem.h */,
@@ -306,6 +314,8 @@
 		F8429F12191F0AEB0079D2B3 /* DIP */ = {
 			isa = PBXGroup;
 			children = (
+				F8AE34E819CAF5F900BC5AF8 /* FisherVectorFace.cpp */,
+				F8AE34E919CAF5F900BC5AF8 /* FisherVectorFace.h */,
 				F8E52C31199F6FB60011D80B /* RealTimeFaceDetection.cpp */,
 				F8E52C32199F6FB60011D80B /* RealTimeFaceDetection.h */,
 				F8E52C33199F6FB60011D80B /* ImageLoader.cpp */,
@@ -676,6 +686,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E52C30199F6F980011D80B /* Vector3.cpp in Sources */,
+				F8AE34EA19CAF5F900BC5AF8 /* FisherVectorFace.cpp in Sources */,
 				F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */,
 				F8E52C47199F6FB60011D80B /* ExplicitShapeRegression.cpp in Sources */,
 				F8E52C09199F6ECD0011D80B /* flann.cpp in Sources */,
@@ -731,6 +742,7 @@
 				F8E52C9B199F6FF10011D80B /* FaceFeatureDetection.cpp in Sources */,
 				F8E52C49199F6FB60011D80B /* Classification.cpp in Sources */,
 				F8E52C2D199F6F980011D80B /* HomoMatrix4.cpp in Sources */,
+				F8AE34E719CAF53300BC5AF8 /* Profiler.cpp in Sources */,
 				F8E52C7C199F6FD60011D80B /* LinearDiscriminantAnalysis.cpp in Sources */,
 				F8E52C4C199F6FB60011D80B /* FeatureDetection.cpp in Sources */,
 				F8E52C82199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp in Sources */,
