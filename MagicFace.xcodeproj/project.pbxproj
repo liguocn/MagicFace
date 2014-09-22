@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F864EDA819D009D90099BA9E /* HighDimensionalFeature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F864EDA619D009D90099BA9E /* HighDimensionalFeature.cpp */; };
+		F864EDAB19D00EB70099BA9E /* SparseMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F864EDA919D00EB70099BA9E /* SparseMatrix.cpp */; };
 		F88401D11920F2020022FEEE /* AppBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401CE1920F2020022FEEE /* AppBase.m */; };
 		F88401D21920F2020022FEEE /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F88401D01920F2020022FEEE /* AppManager.m */; };
 		F88401D61920F2C90022FEEE /* Face2DApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = F88401D51920F2C90022FEEE /* Face2DApp.mm */; };
@@ -98,6 +100,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F864EDA619D009D90099BA9E /* HighDimensionalFeature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = HighDimensionalFeature.cpp; path = ../../MagicLib/Src/DIP/HighDimensionalFeature.cpp; sourceTree = "<group>"; };
+		F864EDA719D009D90099BA9E /* HighDimensionalFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HighDimensionalFeature.h; path = ../../MagicLib/Src/DIP/HighDimensionalFeature.h; sourceTree = "<group>"; };
+		F864EDA919D00EB70099BA9E /* SparseMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SparseMatrix.cpp; path = ../../MagicLib/Src/Math/SparseMatrix.cpp; sourceTree = "<group>"; };
+		F864EDAA19D00EB70099BA9E /* SparseMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SparseMatrix.h; path = ../../MagicLib/Src/Math/SparseMatrix.h; sourceTree = "<group>"; };
 		F88401CD1920F2020022FEEE /* AppBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppBase.h; path = Src/App/Common/AppBase.h; sourceTree = "<group>"; };
 		F88401CE1920F2020022FEEE /* AppBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppBase.m; path = Src/App/Common/AppBase.m; sourceTree = "<group>"; };
 		F88401CF1920F2020022FEEE /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppManager.h; path = Src/App/Common/AppManager.h; sourceTree = "<group>"; };
@@ -307,6 +313,8 @@
 				F8E52C25199F6F980011D80B /* Vector2.h */,
 				F8E52C26199F6F980011D80B /* Vector3.cpp */,
 				F8E52C27199F6F980011D80B /* Vector3.h */,
+				F864EDA919D00EB70099BA9E /* SparseMatrix.cpp */,
+				F864EDAA19D00EB70099BA9E /* SparseMatrix.h */,
 			);
 			name = Math;
 			sourceTree = "<group>";
@@ -336,6 +344,8 @@
 				F8E52C42199F6FB60011D80B /* Retargetting.h */,
 				F8E52C43199F6FB60011D80B /* Saliency.h */,
 				F8E52C44199F6FB60011D80B /* Segmentation.h */,
+				F864EDA619D009D90099BA9E /* HighDimensionalFeature.cpp */,
+				F864EDA719D009D90099BA9E /* HighDimensionalFeature.h */,
 			);
 			name = DIP;
 			sourceTree = "<group>";
@@ -695,6 +705,7 @@
 				F8E52C7E199F6FD60011D80B /* KernelFunction.cpp in Sources */,
 				F8E52C79199F6FD60011D80B /* LogisticRegression.cpp in Sources */,
 				F88401D11920F2020022FEEE /* AppBase.m in Sources */,
+				F864EDA819D009D90099BA9E /* HighDimensionalFeature.cpp in Sources */,
 				F8E52C08199F6ECD0011D80B /* flann_cpp.cpp in Sources */,
 				F8E52C46199F6FB60011D80B /* ImageLoader.cpp in Sources */,
 				F8E52C29199F6F980011D80B /* Optimization.cpp in Sources */,
@@ -747,6 +758,7 @@
 				F8E52C4C199F6FB60011D80B /* FeatureDetection.cpp in Sources */,
 				F8E52C82199F6FD60011D80B /* RestrictedBoltzmannMachines.cpp in Sources */,
 				F8E52CA1199F6FF10011D80B /* MagicObjectManager.cpp in Sources */,
+				F864EDAB19D00EB70099BA9E /* SparseMatrix.cpp in Sources */,
 				F8E52C78199F6FD60011D80B /* DecisionTree.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
